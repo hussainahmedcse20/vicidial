@@ -21,6 +21,8 @@ if (isset($_POST['submitstatus'])) {
 //     echo "<br>";
 // }
 
+// $userGroup->old_group= $_POST['old_group'];
+// $userGroup->group= $_POST['group'];
 
 
 

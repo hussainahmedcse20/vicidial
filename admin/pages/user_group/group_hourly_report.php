@@ -29,7 +29,8 @@ $camp->date_with_hour= $_POST['date_with_hour'];
 $sql="UPDATE `vicidial_campaigns` SET group='".$camp->group.",status='".$camp->status."'
 Where ";
 
-echo $sql;
+$result=mysqli_query($conn,$sql);
+
 }
 ?>
  

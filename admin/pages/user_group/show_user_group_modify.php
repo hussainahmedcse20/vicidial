@@ -5,46 +5,71 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
 }
-echo $id;
+// echo $id;
 if (isset($_POST['add_user_group'])) {
-    $abc = $_POST;
-    foreach ($abc as $k => $v) {
-        echo $k;
-        echo "<br>";
-    }
+    // $abc = $_POST;
+    // foreach ($abc as $k => $v) {
+    //     echo $k;
+    //     echo "<br>";
+    // }
 
-    foreach ($abc as $k => $v) {
-        echo '$userGroup';
-        echo "->";
-        echo $k;
-        echo "= ";
-        echo '$_POST[' . $k . ']';
-        echo "<br>";
+    // foreach ($abc as $k => $v) {
+    //     echo '$userGroup';
+    //     echo "->";
+    //     echo $k;
+    //     echo "= ";
+    //     echo '$_POST[' . $k . ']';
+    //     echo "<br>";
 
-    }
+    // }
 
-    $userGroup->group_name= $_POST[group_name]
-$userGroup->forced_timeclock_login= $_POST[forced_timeclock_login]
-$userGroup->agent_status_view_time= $_POST[agent_status_view_time]
-$userGroup->agent_call_log_view= $_POST[agent_call_log_view]
-$userGroup->agent_xfer_consultative= $_POST[agent_xfer_consultative]
-$userGroup->agent_xfer_dial_override= $_POST[agent_xfer_dial_override]
-$userGroup->agent_xfer_vm_transfer= $_POST[agent_xfer_vm_transfer]
-$userGroup->agent_xfer_blind_transfer= $_POST[agent_xfer_blind_transfer]
-$userGroup->agent_xfer_dial_with_customer= $_POST[agent_xfer_dial_with_customer]
-$userGroup->agent_xfer_park_customer_dial= $_POST[agent_xfer_park_customer_dial]
-$userGroup->agent_xfer_park_3way= $_POST[agent_xfer_park_3way]
-$userGroup->agent_fullscreen= $_POST[agent_fullscreen]
-$userGroup->webphone_url_override= $_POST[webphone_url_override]
-$userGroup->webphone_systemkey_override= $_POST[webphone_systemkey_override]
-$userGroup->webphone_dialpad_override= $_POST[webphone_dialpad_override]
-$userGroup->webphone_layout= $_POST[webphone_layout]
-$userGroup->admin_ip_list= $_POST[admin_ip_list]
-$userGroup->agent_ip_list= $_POST[agent_ip_list]
-$userGroup->allowed_reports= $_POST[allowed_reports]
-$userGroup->add_user_group= $_POST[add_user_group]
+$userGroup->group_name= $_POST['group_name'];
+$userGroup->forced_timeclock_login= $_POST['forced_timeclock_login'];
+$userGroup->agent_status_view_time= $_POST['agent_status_view_time'];
+$userGroup->agent_call_log_view= $_POST['agent_call_log_view'];
+$userGroup->agent_xfer_consultative= $_POST['agent_xfer_consultative'];
+$userGroup->agent_xfer_dial_override= $_POST['agent_xfer_dial_override'];
+$userGroup->agent_xfer_vm_transfer= $_POST['agent_xfer_vm_transfer'];
+$userGroup->agent_xfer_blind_transfer= $_POST['agent_xfer_blind_transfer'];
+$userGroup->agent_xfer_dial_with_customer= $_POST['agent_xfer_dial_with_customer'];
+$userGroup->agent_xfer_park_customer_dial= $_POST['agent_xfer_park_customer_dial'];
+$userGroup->agent_xfer_park_3way= $_POST['agent_xfer_park_3way'];
+$userGroup->agent_fullscreen= $_POST['agent_fullscreen'];
+$userGroup->webphone_url_override= $_POST['webphone_url_override'];
+$userGroup->webphone_systemkey_override= $_POST['webphone_systemkey_override'];
+$userGroup->webphone_dialpad_override= $_POST['webphone_dialpad_override'];
+$userGroup->webphone_layout= $_POST['webphone_layout'];
+$userGroup->admin_ip_list= $_POST['admin_ip_list'];
+$userGroup->agent_ip_list= $_POST['agent_ip_list'];
+$userGroup->allowed_reports= $_POST['allowed_reports'];
+$userGroup->add_user_group= $_POST['add_user_group'];
 
-    sql="";
+$sql="UPDATE `vicidial_campaigns` SELECT group_name='".$userGroup->group_name."',
+forced_timeclock_login='".$userGroup->forced_timeclock_login."',
+agent_status_view_time='".$userGroup->agent_status_view_time."',
+agent_call_log_view='".$userGroup->agent_call_log_view."',
+agent_xfer_consultative='".$userGroup->agent_xfer_consultative."',
+agent_xfer_dial_override='".$userGroup->agent_xfer_dial_override."',
+agent_xfer_vm_transfer='".$userGroup->agent_xfer_vm_transfer."',
+agent_xfer_blind_transfer='".$userGroup->agent_xfer_blind_transfer."',
+agent_xfer_dial_with_customer='".$userGroup->agent_xfer_dial_with_customer."',
+agent_xfer_park_customer_dial='".$userGroup->agent_xfer_park_customer_dial."',
+agent_xfer_park_3way='".$userGroup->agent_xfer_park_3way."',
+agent_fullscreen='".$userGroup->agent_fullscreen."',
+webphone_url_override='".$userGroup->webphone_url_override."',
+webphone_systemkey_override='".$userGroup->webphone_systemkey_override."',
+webphone_dialpad_override='".$userGroup->webphone_dialpad_override."',
+webphone_layout='".$userGroup->webphone_layout."',
+admin_ip_list='".$userGroup->admin_ip_list."',
+agent_ip_list='".$userGroup->agent_ip_list."',
+allowed_reports='".$userGroup->allowed_reports."',
+add_user_group='".$userGroup->add_user_group."' WHERE user_group='" . $id . "'";
+
+$result=mysqli_query($conn, $sql);
+
+
+
+
 }
 
 ?>
@@ -345,7 +370,7 @@ $userGroup->add_user_group= $_POST[add_user_group]
                 <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                     <div class="my-dropdown">
 
-                        <select multiple size="6" name="allowed_reports[]" id="allowed_reports[]"
+                        <select multiple size="6" name="allowed_reports" id="allowed_reports[]"
                                 style="height: auto;padding: 10px 15px 10px 15px;" required>
                             <option value="ALL REPORTS" selected="">ALL REPORTS</option>
                             <option value=" NONE"> NONE</option>
