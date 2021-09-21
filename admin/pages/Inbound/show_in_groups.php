@@ -3,7 +3,7 @@ include "../include/inbound.php";
 $inbound =new inbound();
 
 $sql= "SELECT* group_name FROM vicidial_inbound_groups";
- $result =mysqli_query($conn,$sql);
+$result =mysqli_query($conn,$sql);
 
 
 
