@@ -104,9 +104,10 @@ $user = mysqli_fetch_assoc($result);
                                 class="sidebar-collapse-arrow fa fa-chevron-right" aria-hidden="true"></i></a>
                     <div class="collapse sidebar-submenu" id="collapseInboundMbl">
                         <ul>
-                            <li><a href="#">Inbound List</a></li>
-                            <li><a href="#">Inbound Status</a></li>
-                            <li><a href="#">Inbound Stats</a></li>
+                        <li><a href="?c=Inbound&v=show_in_groups">Show In-Groups</a></li>
+                        <li><a href="?c=Inbound&v=show_dids">Show DIDS</a></li>
+                        <li><a href="?c=Inbound&v=show_call_menus">Show Call Menus</a></li>
+                        <li><a href="?c=Inbound&v=filter_phone_groups">Filter Phone Groups</a></li>
                         </ul>
                     </div>
 
@@ -221,8 +222,9 @@ $user = mysqli_fetch_assoc($result);
                 <div class="collapse sidebar-submenu" id="collapseInbound">
                     <ul>
                         <li><a href="?c=Inbound&v=show_in_groups">Show In-Groups</a></li>
-                        <li><a href="#">Inbound Status</a></li>
-                        <li><a href="#">Inbound Stats</a></li>
+                        <li><a href="?c=Inbound&v=show_dids">Show DIDS</a></li>
+                        <li><a href="?c=Inbound&v=show_call_menus">Show Call Menus</a></li>
+                        <li><a href="?c=Inbound&v=filter_phone_groups">Filter Phone Groups</a></li>
                     </ul>
                 </div>
 
