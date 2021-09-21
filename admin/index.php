@@ -220,7 +220,7 @@ $user = mysqli_fetch_assoc($result);
                             class="sidebar-collapse-arrow fa fa-chevron-right" aria-hidden="true"></i></a>
                 <div class="collapse sidebar-submenu" id="collapseInbound">
                     <ul>
-                        <li><a href="#">Inbound List</a></li>
+                        <li><a href="?c=Inbound&v=show_in_groups">Show In-Groups</a></li>
                         <li><a href="#">Inbound Status</a></li>
                         <li><a href="#">Inbound Stats</a></li>
                     </ul>

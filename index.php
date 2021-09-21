@@ -143,9 +143,4 @@ if (isset($_POST['submit'])) {
 </html>
 
 
-
-
-
-
-
 <!-- Tazbin Ahad -->
