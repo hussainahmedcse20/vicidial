@@ -74,8 +74,8 @@ $result = mysqli_query($conn, $sql);
                     echo "<tr></tr><td>" . $row['user_group'] . "</td>";
                     echo "<td>" . $row['group_name'] . "</td>";
 
-                    echo "<td>" . $row['group_name'] . "</td>";
-                    echo '  <td><a href="#">MODIFY</a></td></tr>';
+                    echo "<td>" . $row['forced_timeclock_login'] . "</td>";
+                    echo '<td><a href="?c=user_group&v=show_user_group_modify&id=' . $row['user_group'] . '">MODIFY</a></td>';
                 }
 
                 ?>
