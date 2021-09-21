@@ -180,9 +180,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="dead_trigger_seconds"
-                           name="dead_trigger_seconds" aria-describedby="dead_trigger_seconds"
-                    >
+                    <input type="text" class="form-control" id="dead_trigger_seconds" name="dead_trigger_seconds"
+                        aria-describedby="dead_trigger_seconds">
                     <label for="dead_trigger_seconds">Dead Call Trigger Seconds</label>
                 </div>
             </div>
@@ -204,9 +203,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="dead_max"
-                           name="dead_max" aria-describedby="dead_max"
-                    >
+                    <input type="text" class="form-control" id="dead_max" name="dead_max" aria-describedby="dead_max">
                     <label for="dead_max">Dead Call Max Seconds</label>
                 </div>
             </div>
@@ -382,8 +379,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="am_message_exten"
-                           name="am_message_exten" aria-describedby="am_message_exten">
+                    <input type="text" class="form-control" id="am_message_exten" name="am_message_exten"
+                        aria-describedby="am_message_exten">
                     <label for="am_message_exten">Answering Machine Message</label>
                 </div>
             </div>
@@ -391,8 +388,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="vmm_daily_limit"
-                           name="vmm_daily_limit" aria-describedby="vmm_daily_limit">
+                    <input type="text" class="form-control" id="vmm_daily_limit" name="vmm_daily_limit"
+                        aria-describedby="vmm_daily_limit">
                     <label for="vmm_daily_limit">Voicemail Message Daily Limit</label>
                 </div>
             </div>
@@ -400,9 +397,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_d_number"
-                           name="waitforsilence_options" aria-describedby="waitforsilence_options"
-                    >
+                    <input type="text" class="form-control" id="xferconf_d_number" name="waitforsilence_options"
+                        aria-describedby="waitforsilence_options">
                     <label for="waitforsilence_options">WaitForSilence Options</label>
                 </div>
             </div>
@@ -495,8 +491,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="leave_vm_message_group_id" id="leave_vm_message_group_id"
-                    >
+                    <select name="leave_vm_message_group_id" id="leave_vm_message_group_id">
                         <option></option>
                         <option value="---NONE---">---NONE---</option>
                     </select>
@@ -520,11 +515,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>AM Message Wildcards</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="am_message_wildcards-one" name="am_message_wildcards"
-                           value="1" check="yes" checked/>
+                    <input type="radio" id="am_message_wildcards-one" name="am_message_wildcards" value="1" check="yes"
+                        checked />
                     <label for="am_message_wildcards-one">Yes</label>
-                    <input type="radio" id="am_message_wildcards-two" name="am_message_wildcards"
-                           value="0" check="no"/>
+                    <input type="radio" id="am_message_wildcards-two" name="am_message_wildcards" value="0"
+                        check="no" />
                     <label for="am_message_wildcards-two">No</label>
                 </div>
             </div>
@@ -532,11 +527,9 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>AMD send to Action</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="1"
-                           check="yes" checked/>
+                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="1" check="yes" checked />
                     <label for="amd_send_to_vmx-one">Yes</label>
-                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="0"
-                           check="no"/>
+                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="0" check="no" />
                     <label for="amd_send_to_vmx-two">No</label>
                 </div>
             </div>
@@ -548,56 +541,56 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_a_dtmf"
-                           name="xferconf_a_dtmf" aria-describedby="xferconf_a_dtmf">
+                    <input type="text" class="form-control" id="xferconf_a_dtmf" name="xferconf_a_dtmf"
+                        aria-describedby="xferconf_a_dtmf">
                     <label for="xferconf_a_dtmf">Transfer-Conf DTMF 1</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_a_number"
-                           name="xferconf_a_number" aria-describedby="xferconf_a_number">
+                    <input type="text" class="form-control" id="xferconf_a_number" name="xferconf_a_number"
+                        aria-describedby="xferconf_a_number">
                     <label for="xferconf_a_number">Transfer-Conf Number 1</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_b_dtmf"
-                           name="xferconf_b_dtmf" aria-describedby="xferconf_b_dtmf">
+                    <input type="text" class="form-control" id="xferconf_b_dtmf" name="xferconf_b_dtmf"
+                        aria-describedby="xferconf_b_dtmf">
                     <label for="xferconf_b_dtmf">Transfer-Conf DTMF 2</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_b_number"
-                           name="xferconf_b_number" aria-describedby="xferconf_b_number">
+                    <input type="text" class="form-control" id="xferconf_b_number" name="xferconf_b_number"
+                        aria-describedby="xferconf_b_number">
                     <label for="xferconf_b_number">Transfer-Conf Number 2</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_c_number"
-                           name="xferconf_c_number" aria-describedby="xferconf_c_number">
+                    <input type="text" class="form-control" id="xferconf_c_number" name="xferconf_c_number"
+                        aria-describedby="xferconf_c_number">
                     <label for="xferconf_c_number">Transfer-Conf Number 3</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_d_number"
-                           name="xferconf_d_number" aria-describedby="xferconf_d_number">
+                    <input type="text" class="form-control" id="xferconf_d_number" name="xferconf_d_number"
+                        aria-describedby="xferconf_d_number">
                     <label for="xferconf_d_number">Transfer-Conf Number 4</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_d_number"
-                           name="xferconf_d_number" aria-describedby="xferconf_d_number">
+                    <input type="text" class="form-control" id="xferconf_d_number" name="xferconf_d_number"
+                        aria-describedby="xferconf_d_number">
                     <label for="xferconf_d_number">Transfer-Conf Number 5</label>
                 </div>
             </div>
@@ -629,8 +622,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="prepopulate_transfer_preset" id="prepopulate_transfer_preset"
-                    >
+                    <select name="prepopulate_transfer_preset" id="prepopulate_transfer_preset">
                         <option></option>
                         <option value='N'>N</option>
                         <option value='PRESET_1'>PRESET_1</option>
@@ -690,8 +682,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
         <div class="row mt-5">
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="custom_3way_button_transfer" id="custom_3way_button_transfer"
-                    >
+                    <select name="custom_3way_button_transfer" id="custom_3way_button_transfer">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='PRESET_1'>PRESET_1</option>
@@ -742,9 +733,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="three_way_dial_prefix"
-                           name="waitforsilence_options" aria-describedby="waitforsilence_options"
-                    >
+                    <input type="text" class="form-control" id="three_way_dial_prefix" name="waitforsilence_options"
+                        aria-describedby="waitforsilence_options">
                     <label for="three_way_dial_prefix">3-Way Call Dial Prefix</label>
                 </div>
             </div>
@@ -761,8 +751,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="customer_3way_hangup_logging" id="customer_3way_hangup_logging"
-                    >
+                    <select name="customer_3way_hangup_logging" id="customer_3way_hangup_logging">
                         <option></option>
                         <option value='ENABLED'>ENABLED</option>
                         <option value='DISABLED'>DISABLED</option>
@@ -775,15 +764,13 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="customer_3way_hangup_seconds"
-                           name="customer_3way_hangup_seconds"
-                           aria-describedby="customer_3way_hangup_seconds">
+                        name="customer_3way_hangup_seconds" aria-describedby="customer_3way_hangup_seconds">
                     <label for="customer_3way_hangup_seconds">Customer 3-Way Hangup Seconds</label>
                 </div>
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="customer_3way_hangup_action" id="customer_3way_hangup_action"
-                    >
+                    <select name="customer_3way_hangup_action" id="customer_3way_hangup_action">
                         <option></option>
                         <option value='NONE'>NONE</option>
                         <option value="DISPO">DISPO</option>
@@ -794,8 +781,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="three_way_record_stop_exception"
-                            id="three_way_record_stop_exception">
+                    <select name="three_way_record_stop_exception" id="three_way_record_stop_exception">
                         <option></option>
                         <option value="DISABLED">DISABLED</option>
                     </select>
@@ -806,8 +792,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="leave_3way_start_recording" id="leave_3way_start_recording"
-                    >
+                    <select name="leave_3way_start_recording" id="leave_3way_start_recording">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='ALL_CALLS'>ALL_CALLS</option>
@@ -820,8 +805,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="leave_3way_start_recording_exception"
-                            id="leave_3way_start_recording_exception">
+                    <select name="leave_3way_start_recording_exception" id="leave_3way_start_recording_exception">
                         <option></option>
                         <option value="DISABLED">DISABLED</option>
                     </select>
@@ -834,11 +818,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>3-Way Recording Stop</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="three_way_record_stop-one" name="three_way_record_stop"
-                           value="1" check="yes" checked/>
+                    <input type="radio" id="three_way_record_stop-one" name="three_way_record_stop" value="1"
+                        check="yes" checked />
                     <label for="three_way_record_stop-one">Yes</label>
-                    <input type="radio" id="three_way_record_stop-two" name="three_way_record_stop"
-                           value="0" check="no"/>
+                    <input type="radio" id="three_way_record_stop-two" name="three_way_record_stop" value="0"
+                        check="no" />
                     <label for="three_way_record_stop-two">No</label>
                 </div>
             </div>
@@ -846,11 +830,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Hangup Xfer Recording Start</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="hangup_xfer_record_start-one"
-                           name="hangup_xfer_record_start" value="1" check="yes" checked/>
+                    <input type="radio" id="hangup_xfer_record_start-one" name="hangup_xfer_record_start" value="1"
+                        check="yes" checked />
                     <label for="hangup_xfer_record_start-one">Yes</label>
-                    <input type="radio" id="hangup_xfer_record_start-two"
-                           name="hangup_xfer_record_start" value="0" check="no"/>
+                    <input type="radio" id="hangup_xfer_record_start-two" name="hangup_xfer_record_start" value="0"
+                        check="no" />
                     <label for="hangup_xfer_record_start-two">No</label>
                 </div>
             </div>
@@ -874,8 +858,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="ivr_park_call_agi"
-                           name="ivr_park_call_agi" aria-describedby="ivr_park_call_agi">
+                    <input type="text" class="form-control" id="ivr_park_call_agi" name="ivr_park_call_agi"
+                        aria-describedby="ivr_park_call_agi">
                     <label for="ivr_park_call_agi">Park Call IVR AGI</label>
                 </div>
             </div>
@@ -913,9 +897,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="timer_action_message"
-                           name="timer_action_message" aria-describedby="timer_action_message"
-                    >
+                    <input type="text" class="form-control" id="timer_action_message" name="timer_action_message"
+                        aria-describedby="timer_action_message">
                     <label for="timer_action_message">Timer Action Message</label>
                 </div>
             </div>
@@ -923,9 +906,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="timer_action_seconds"
-                           name="timer_action_seconds" aria-describedby="timer_action_seconds"
-                    >
+                    <input type="text" class="form-control" id="timer_action_seconds" name="timer_action_seconds"
+                        aria-describedby="timer_action_seconds">
                     <label for="timer_action_seconds">Timer Action Seconds</label>
                 </div>
             </div>
@@ -934,16 +916,14 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="timer_action_destination"
-                           name="timer_action_destination" aria-describedby="timer_action_destination"
-                    >
+                        name="timer_action_destination" aria-describedby="timer_action_destination">
                     <label for="timer_action_destination">Timer Action Destination</label>
                 </div>
             </div>
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_alert" id="scheduled_callbacks_alert"
-                    >
+                    <select name="scheduled_callbacks_alert" id="scheduled_callbacks_alert">
                         <option></option>
                         <option value='NONE'>NONE</option>
                         <option value='BLINK'>BLINK</option>
@@ -960,8 +940,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_count" id="scheduled_callbacks_count"
-                    >
+                    <select name="scheduled_callbacks_count" id="scheduled_callbacks_count">
                         <option></option>
                         <option value="LIVE">LIVE</option>
                         <option value="ALL_ACTIVE">ALL_ACTIVE</option>
@@ -974,8 +953,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_days_limit"
-                           name="callback_days_limit" aria-describedby="callback_days_limit">
+                    <input type="text" class="form-control" id="callback_days_limit" name="callback_days_limit"
+                        aria-describedby="callback_days_limit">
                     <label for="callback_days_limit">Scheduled Callbacks Days Limit</label>
                 </div>
             </div>
@@ -983,9 +962,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_hours_block"
-                           name="callback_hours_block" aria-describedby="callback_hours_block"
-                    >
+                    <input type="text" class="form-control" id="callback_hours_block" name="callback_hours_block"
+                        aria-describedby="callback_hours_block">
                     <label for="callback_hours_block">Scheduled Callbacks Hours Block</label>
                 </div>
             </div>
@@ -1005,9 +983,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_active_limit"
-                           name="callback_active_limit" aria-describedby="callback_active_limit"
-                    >
+                    <input type="text" class="form-control" id="callback_active_limit" name="callback_active_limit"
+                        aria-describedby="callback_active_limit">
                     <label for="callback_active_limit">Scheduled Callbacks Active Limit</label>
                 </div>
             </div>
@@ -1015,9 +992,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_display_days"
-                           name="callback_display_days" aria-describedby="callback_display_days"
-                    >
+                    <input type="text" class="form-control" id="callback_display_days" name="callback_display_days"
+                        aria-describedby="callback_display_days">
                     <label for="callback_display_days">Scheduled Callbacks Display Days</label>
                 </div>
             </div>
@@ -1063,8 +1039,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="callback_useronly_move_minutes"
-                           name="callback_useronly_move_minutes"
-                           aria-describedby="callback_useronly_move_minutes">
+                        name="callback_useronly_move_minutes" aria-describedby="callback_useronly_move_minutes">
                     <label for="callback_useronly_move_minutes">Scheduled Callbacks Useronly Move
                         Minutes</label>
                 </div>
@@ -1101,8 +1076,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_auto_reschedule"
-                            id="scheduled_callbacks_auto_reschedule">
+                    <select name="scheduled_callbacks_auto_reschedule" id="scheduled_callbacks_auto_reschedule">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='DAY_1'>DAY_1</option>
@@ -1130,11 +1104,10 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks-one" name="scheduled_callbacks"
-                           value="1" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks-one" name="scheduled_callbacks" value="1" check="yes"
+                        checked />
                     <label for="scheduled_callbacks-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks-two" name="scheduled_callbacks"
-                           value="0" check="no"/>
+                    <input type="radio" id="scheduled_callbacks-two" name="scheduled_callbacks" value="0" check="no" />
                     <label for="scheduled_callbacks-two">No</label>
                 </div>
             </div>
@@ -1142,11 +1115,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Send Callbacks Email</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks_email_alert-one"
-                           name="scheduled_callbacks_email_alert" value="1" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks_email_alert-one" name="scheduled_callbacks_email_alert"
+                        value="1" check="yes" checked />
                     <label for="scheduled_callbacks_email_alert-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks_email_alert-two"
-                           name="scheduled_callbacks_email_alert" value="0" check="no"/>
+                    <input type="radio" id="scheduled_callbacks_email_alert-two" name="scheduled_callbacks_email_alert"
+                        value="0" check="no" />
                     <label for="scheduled_callbacks_email_alert-two">No</label>
                 </div>
             </div>
@@ -1154,11 +1127,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks Active Limit Override</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="callback_active_limit_override-one"
-                           name="callback_active_limit_override" value="1" check="yes" checked/>
+                    <input type="radio" id="callback_active_limit_override-one" name="callback_active_limit_override"
+                        value="1" check="yes" checked />
                     <label for="callback_active_limit_override-one">Yes</label>
-                    <input type="radio" id="callback_active_limit_override-two"
-                           name="callback_active_limit_override" value="0" check="no"/>
+                    <input type="radio" id="callback_active_limit_override-two" name="callback_active_limit_override"
+                        value="0" check="no" />
                     <label for="callback_active_limit_override-two">No</label>
                 </div>
             </div>
@@ -1166,11 +1139,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks Force Dial</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks_force_dial-one"
-                           name="scheduled_callbacks_force_dial" value="1" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks_force_dial-one" name="scheduled_callbacks_force_dial"
+                        value="1" check="yes" checked />
                     <label for="scheduled_callbacks_force_dial-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks_force_dial-two"
-                           name="scheduled_callbacks_force_dial" value="0" check="no"/>
+                    <input type="radio" id="scheduled_callbacks_force_dial-two" name="scheduled_callbacks_force_dial"
+                        value="0" check="no" />
                     <label for="scheduled_callbacks_force_dial-two">No</label>
                 </div>
             </div>
@@ -1182,16 +1155,16 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="am_message_exten"
-                           name="am_message_exten" aria-describedby="am_message_exten">
+                    <input type="text" class="form-control" id="am_message_exten" name="am_message_exten"
+                        aria-describedby="am_message_exten">
                     <label for="am_message_exten">Answering Machine Message</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="vmm_daily_limit"
-                           name="vmm_daily_limit" aria-describedby="vmm_daily_limit">
+                    <input type="text" class="form-control" id="vmm_daily_limit" name="vmm_daily_limit"
+                        aria-describedby="vmm_daily_limit">
                     <label for="vmm_daily_limit">Voicemail Message Daily Limit</label>
                 </div>
             </div>
@@ -1199,9 +1172,8 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="waitforsilence_options"
-                           name="waitforsilence_options" aria-describedby="waitforsilence_options"
-                    >
+                    <input type="text" class="form-control" id="waitforsilence_options" name="waitforsilence_options"
+                        aria-describedby="waitforsilence_options">
                     <label for="waitforsilence_options">WaitForSilence Options</label>
                 </div>
             </div>
@@ -1290,8 +1262,7 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
                 <div class="my-dropdown">
                     <select name="leave_vm_message_group_id" id="leave_vm_message_group_id">
                         <option></option>
-                        <option
-                        ="" value="---NONE---">---NONE---</option>
+                        <option="" value="---NONE---">---NONE---</option>
                     </select>
                     <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                     <label for="leave_vm_message_group_id">VM Message Group</label>
@@ -1312,11 +1283,11 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>AM Message Wildcards</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="am_message_wildcards-one" name="am_message_wildcards" value="1"
-                           check="yes" checked/>
+                    <input type="radio" id="am_message_wildcards-one" name="am_message_wildcards" value="1" check="yes"
+                        checked />
                     <label for="am_message_wildcards-one">Yes</label>
                     <input type="radio" id="am_message_wildcards-two" name="am_message_wildcards" value="0"
-                           check="no"/>
+                        check="no" />
                     <label for="am_message_wildcards-two">No</label>
                 </div>
             </div>
@@ -1324,11 +1295,9 @@ $sql= "UPDATE vicidial_campaigns SET dead_trigger_action=' "  .$camp->dead_trigg
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>AMD send to Action</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="1"
-                           check="yes" checked/>
+                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="1" check="yes" checked />
                     <label for="amd_send_to_vmx-one">Yes</label>
-                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="0"
-                           check="no"/>
+                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="0" check="no" />
                     <label for="amd_send_to_vmx-two">No</label>
                 </div>
             </div>

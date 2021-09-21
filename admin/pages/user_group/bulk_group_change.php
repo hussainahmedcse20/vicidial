@@ -62,7 +62,7 @@ echo $sql;
                                     </select>
                                     <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                                     <label for="old_group"
-                                           style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
+                                        style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                 </div>
                             </div>
                             <div class="my-input-with-help col-12 col-md-6 col-lg-12 align-items-center ">
@@ -75,7 +75,7 @@ echo $sql;
                                     </select>
                                     <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                                     <label for="group"
-                                           style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
+                                        style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                 </div>
                             </div>
                             <input type="submit" value="Submit" class=" my-btn-primary" name="submitstatus">
@@ -96,7 +96,7 @@ echo $sql;
                                     </select>
                                     <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                                     <label for="group"
-                                           style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
+                                        style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                 </div>
                             </div>
                             <input type="submit" value="Submit" class=" my-btn-primary" name="submitstatus">

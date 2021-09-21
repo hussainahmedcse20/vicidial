@@ -62,7 +62,7 @@ $camp->cid_description= $_POST['cid_description'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="areacode" name="areacode"
-                                   aria-describedby="areacode" required>
+                                aria-describedby="areacode" required>
                             <label for="areacode">Areacode</label>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ $camp->cid_description= $_POST['cid_description'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="outbound_cid" name="outbound_cid"
-                                   aria-describedby="outbound_cid" required>
+                                aria-describedby="outbound_cid" required>
                             <label for="outbound_cid">Outbound CID</label>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ $camp->cid_description= $_POST['cid_description'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="cid_description" name="cid_description"
-                                   aria-describedby="cid_description" required>
+                                aria-describedby="cid_description" required>
                             <label for="cid_description">Description</label>
                         </div>
                     </div>
@@ -101,27 +101,27 @@ $camp->cid_description= $_POST['cid_description'];
             <div class="my-secondary-table">
                 <table class="table table-bordered">
                     <thead>
-                    <tr>
-                        <th scope="col">SL</th>
-                        <th scope="col">AREACODE</th>
-                        <th scope="col">CID NUMBER</th>
-                        <th scope="col">DESCRIPTION</th>
-                        <th scope="col">ACTIVE <a class="ml-2" href="#">select all</a></th>
-                        <th>CALLS</th>
-                        <th scope="col">DELETE</th>
+                        <tr>
+                            <th scope="col">SL</th>
+                            <th scope="col">AREACODE</th>
+                            <th scope="col">CID NUMBER</th>
+                            <th scope="col">DESCRIPTION</th>
+                            <th scope="col">ACTIVE <a class="ml-2" href="#">select all</a></th>
+                            <th>CALLS</th>
+                            <th scope="col">DELETE</th>
 
-                    </tr>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1001</td>
-                        <td>Warehouse</td>
-                        <td>123456</td>
-                        <td>123456</td>
-                        <td><span class="active-yes">Yes</span></td>
-                        <td>123455</td>
-                        <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                    </tr>
+                        <tr>
+                            <td>1001</td>
+                            <td>Warehouse</td>
+                            <td>123456</td>
+                            <td>123456</td>
+                            <td><span class="active-yes">Yes</span></td>
+                            <td>123455</td>
+                            <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

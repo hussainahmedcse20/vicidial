@@ -321,23 +321,22 @@ if(isset($_POST['campaign2'])){
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="user_nickname" name="am_message_exten"
-                           aria-describedby="user_nickname" value="<?=$datacamp['am_message_exten']?>">
+                        aria-describedby="user_nickname" value="<?=$datacamp['am_message_exten']?>">
                     <label for="user_nickname">Answering Machine Message</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
-                    <input type="text" class="form-control" id="vmm_daily_limit"
-                           name="vmm_daily_limit" aria-describedby="vmm_daily_limit" value="<?= $datacamp['vmm_daily_limit'] ?>">
+                    <input type="text" class="form-control" id="vmm_daily_limit" name="vmm_daily_limit"
+                        aria-describedby="vmm_daily_limit" value="<?= $datacamp['vmm_daily_limit'] ?>">
                     <label for="vmm_daily_limit">Voicemail Message Daily Limit</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="waitforsilence_options"
-                           name="waitforsilence_options" aria-describedby="waitforsilence_options"  value="<?=$datacamp['waitforsilence_options']?>"
-                    >
+                    <input type="text" class="form-control" id="waitforsilence_options" name="waitforsilence_options"
+                        aria-describedby="waitforsilence_options" value="<?=$datacamp['waitforsilence_options']?>">
                     <label for="waitforsilence_options">WaitForSilence Options</label>
                 </div>
             </div>
@@ -431,8 +430,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="leave_vm_message_group_id" id="leave_vm_message_group_id"
-                    >
+                    <select name="leave_vm_message_group_id" id="leave_vm_message_group_id">
                         <option></option>
                         <option value="---NONE---">---NONE---</option>
                     </select>
@@ -479,11 +477,9 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>AMD send to Action</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="Y"
-                           check="yes" checked/>
+                    <input type="radio" id="amd_send_to_vmx-one" name="amd_send_to_vmx" value="Y" check="yes" checked />
                     <label for="amd_send_to_vmx-one">Yes</label>
-                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="N"
-                           check="no"/>
+                    <input type="radio" id="amd_send_to_vmx-two" name="amd_send_to_vmx" value="N" check="no" />
                     <label for="amd_send_to_vmx-two">No</label>
                 </div>
             </div>
@@ -495,55 +491,55 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_a_dtmf"
-                           name="xferconf_a_dtmf" aria-describedby="xferconf_a_dtmf" value="<?= $datacamp['xferconf_a_dtmf'] ?>">
+                    <input type="text" class="form-control" id="xferconf_a_dtmf" name="xferconf_a_dtmf"
+                        aria-describedby="xferconf_a_dtmf" value="<?= $datacamp['xferconf_a_dtmf'] ?>">
                     <label for="xferconf_a_dtmf">Transfer-Conf DTMF 1</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
-                    <input type="text" class="form-control" id="xferconf_a_number"
-                           name="xferconf_a_number" aria-describedby="xferconf_a_number" value="<?= $datacamp['xferconf_a_number'] ?>">
+                    <input type="text" class="form-control" id="xferconf_a_number" name="xferconf_a_number"
+                        aria-describedby="xferconf_a_number" value="<?= $datacamp['xferconf_a_number'] ?>">
                     <label for="xferconf_a_number">Transfer-Conf Number 1</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_b_dtmf"
-                           name="xferconf_b_dtmf" aria-describedby="xferconf_b_dtmf" value="<?= $datacamp['xferconf_b_dtmf'] ?>">
+                    <input type="text" class="form-control" id="xferconf_b_dtmf" name="xferconf_b_dtmf"
+                        aria-describedby="xferconf_b_dtmf" value="<?= $datacamp['xferconf_b_dtmf'] ?>">
                     <label for="xferconf_b_dtmf">Transfer-Conf DTMF 2</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_b_number"
-                           name="xferconf_b_number" aria-describedby="xferconf_b_number" value="<?= $datacamp['xferconf_b_number'] ?>">
+                    <input type="text" class="form-control" id="xferconf_b_number" name="xferconf_b_number"
+                        aria-describedby="xferconf_b_number" value="<?= $datacamp['xferconf_b_number'] ?>">
                     <label for="xferconf_b_number">Transfer-Conf Number 2</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_c_number"
-                           name="xferconf_c_number" aria-describedby="xferconf_c_number" value="<?= $datacamp['xferconf_c_number'] ?>">
+                    <input type="text" class="form-control" id="xferconf_c_number" name="xferconf_c_number"
+                        aria-describedby="xferconf_c_number" value="<?= $datacamp['xferconf_c_number'] ?>">
                     <label for="xferconf_c_number">Transfer-Conf Number 3</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_d_number"
-                           name="xferconf_d_number" aria-describedby="xferconf_d_number" value="<?= $datacamp['xferconf_d_number'] ?>">
+                    <input type="text" class="form-control" id="xferconf_d_number" name="xferconf_d_number"
+                        aria-describedby="xferconf_d_number" value="<?= $datacamp['xferconf_d_number'] ?>">
                     <label for="xferconf_d_number">Transfer-Conf Number 4</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="xferconf_e_number"
-                           name="xferconf_e_number" aria-describedby="xferconf_e_number" value="<?= $datacamp['xferconf_e_number'] ?>">
+                    <input type="text" class="form-control" id="xferconf_e_number" name="xferconf_e_number"
+                        aria-describedby="xferconf_e_number" value="<?= $datacamp['xferconf_e_number'] ?>">
                     <label for="xferconf_e_number">Transfer-Conf Number 5</label>
                 </div>
             </div>
@@ -575,8 +571,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="prepopulate_transfer_preset" id="prepopulate_transfer_preset"
-                    >
+                    <select name="prepopulate_transfer_preset" id="prepopulate_transfer_preset">
                         <option></option>
                         <option value='N'>N</option>
                         <option value='PRESET_1'>PRESET_1</option>
@@ -635,8 +630,7 @@ if(isset($_POST['campaign2'])){
         <div class="row mt-5">
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="custom_3way_button_transfer" id="custom_3way_button_transfer"
-                    >
+                    <select name="custom_3way_button_transfer" id="custom_3way_button_transfer">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='PRESET_1'>PRESET_1</option>
@@ -687,9 +681,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="three_way_dial_prefix"
-                           name="three_way_dial_prefix" aria-describedby="three_way_dial_prefix" value="<?= $datacamp['three_way_dial_prefix'] ?>"
-                    >
+                    <input type="text" class="form-control" id="three_way_dial_prefix" name="three_way_dial_prefix"
+                        aria-describedby="three_way_dial_prefix" value="<?= $datacamp['three_way_dial_prefix'] ?>">
                     <label for="three_way_dial_prefix">3-Way Call Dial Prefix</label>
                 </div>
             </div>
@@ -708,8 +701,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="customer_3way_hangup_logging" id="customer_3way_hangup_logging"
-                    >
+                    <select name="customer_3way_hangup_logging" id="customer_3way_hangup_logging">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='ENABLED'>ENABLED</option>
@@ -722,16 +714,15 @@ if(isset($_POST['campaign2'])){
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="customer_3way_hangup_seconds"
-                           name="customer_3way_hangup_seconds"
-                           aria-describedby="customer_3way_hangup_seconds" value="<?= $datacamp['customer_3way_hangup_seconds'] ?>">
+                        name="customer_3way_hangup_seconds" aria-describedby="customer_3way_hangup_seconds"
+                        value="<?= $datacamp['customer_3way_hangup_seconds'] ?>">
                     <label for="customer_3way_hangup_seconds">Customer 3-Way Hangup Seconds</label>
                 </div>
             </div>
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="customer_3way_hangup_action" id="customer_3way_hangup_action"
-                    >
+                    <select name="customer_3way_hangup_action" id="customer_3way_hangup_action">
                         <option></option>
                         <option value="NONE">NONE</option>
                         <option value="DISPO">DISPO</option>
@@ -743,8 +734,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="three_way_record_stop_exception"
-                            id="three_way_record_stop_exception">
+                    <select name="three_way_record_stop_exception" id="three_way_record_stop_exception">
                         <option></option>
                         <option value="DISABLED">DISABLED</option>
                     </select>
@@ -756,8 +746,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="leave_3way_start_recording" id="leave_3way_start_recording"
-                    >
+                    <select name="leave_3way_start_recording" id="leave_3way_start_recording">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='ALL_CALLS'>ALL_CALLS</option>
@@ -771,8 +760,7 @@ if(isset($_POST['campaign2'])){
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
 
-                    <select name="leave_3way_start_recording_exception"
-                            id="leave_3way_start_recording_exception">
+                    <select name="leave_3way_start_recording_exception" id="leave_3way_start_recording_exception">
                         <option></option>
                         <option value="DISABLED">DISABLED</option>
                     </select>
@@ -785,22 +773,22 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>3-Way Recording Stop</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="three_way_record_stop-one" name="three_way_record_stop"
-                           value="Y" check="yes" checked/>
+                    <input type="radio" id="three_way_record_stop-one" name="three_way_record_stop" value="Y"
+                        check="yes" checked />
                     <label for="three_way_record_stop-one">Yes</label>
-                    <input type="radio" id="three_way_record_stop-two" name="three_way_record_stop"
-                           value="N" check="no"/>
+                    <input type="radio" id="three_way_record_stop-two" name="three_way_record_stop" value="N"
+                        check="no" />
                     <label for="three_way_record_stop-two">No</label>
                 </div>
             </div>
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Hangup Xfer Recording Start</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="hangup_xfer_record_start-one"
-                           name="hangup_xfer_record_start" value="Y" check="yes" checked/>
+                    <input type="radio" id="hangup_xfer_record_start-one" name="hangup_xfer_record_start" value="Y"
+                        check="yes" checked />
                     <label for="hangup_xfer_record_start-one">Yes</label>
-                    <input type="radio" id="hangup_xfer_record_start-two"
-                           name="hangup_xfer_record_start" value="N" check="no"/>
+                    <input type="radio" id="hangup_xfer_record_start-two" name="hangup_xfer_record_start" value="N"
+                        check="no" />
                     <label for="hangup_xfer_record_start-two">No</label>
                 </div>
             </div>
@@ -826,8 +814,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="ivr_park_call_agi"
-                           name="ivr_park_call_agi" aria-describedby="ivr_park_call_agi"value="<?= $datacamp['ivr_park_call_agi'] ?>">
+                    <input type="text" class="form-control" id="ivr_park_call_agi" name="ivr_park_call_agi"
+                        aria-describedby="ivr_park_call_agi" value="<?= $datacamp['ivr_park_call_agi'] ?>">
                     <label for="ivr_park_call_agi">Park Call IVR AGI</label>
                 </div>
             </div>
@@ -865,9 +853,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="timer_action_message"
-                           name="timer_action_message" aria-describedby="timer_action_message"
-                    >
+                    <input type="text" class="form-control" id="timer_action_message" name="timer_action_message"
+                        aria-describedby="timer_action_message">
                     <label for="timer_action_message">Timer Action Message</label>
                 </div>
             </div>
@@ -875,9 +862,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="timer_action_seconds"
-                           name="timer_action_seconds" aria-describedby="timer_action_seconds"
-                    >
+                    <input type="text" class="form-control" id="timer_action_seconds" name="timer_action_seconds"
+                        aria-describedby="timer_action_seconds">
                     <label for="timer_action_seconds">Timer Action Seconds</label>
                 </div>
             </div>
@@ -886,16 +872,14 @@ if(isset($_POST['campaign2'])){
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="timer_action_destination"
-                           name="timer_action_destination" aria-describedby="timer_action_destination"
-                    >
+                        name="timer_action_destination" aria-describedby="timer_action_destination">
                     <label for="timer_action_destination">Timer Action Destination</label>
                 </div>
             </div>
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_alert" id="scheduled_callbacks_alert"
-                    >
+                    <select name="scheduled_callbacks_alert" id="scheduled_callbacks_alert">
                         <option></option>
                         <option value='NONE'>NONE</option>
                         <option value='BLINK'>BLINK</option>
@@ -912,8 +896,7 @@ if(isset($_POST['campaign2'])){
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_count" id="scheduled_callbacks_count"
-                    >
+                    <select name="scheduled_callbacks_count" id="scheduled_callbacks_count">
                         <option></option>
                         <option value='LIVE'>LIVE</option>
                         <option value='ALL_ACTIVE'>ALL_ACTIVE</option>
@@ -926,8 +909,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_days_limit"
-                           name="callback_days_limit" aria-describedby="callback_days_limit">
+                    <input type="text" class="form-control" id="callback_days_limit" name="callback_days_limit"
+                        aria-describedby="callback_days_limit">
                     <label for="callback_days_limit">Scheduled Callbacks Days Limit</label>
                 </div>
             </div>
@@ -935,9 +918,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_hours_block"
-                           name="callback_hours_block" aria-describedby="callback_hours_block"
-                    >
+                    <input type="text" class="form-control" id="callback_hours_block" name="callback_hours_block"
+                        aria-describedby="callback_hours_block">
                     <label for="callback_hours_block">Scheduled Callbacks Hours Block</label>
                 </div>
             </div>
@@ -957,18 +939,16 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_active_limit"
-                           name="callback_active_limit" aria-describedby="callback_active_limit"
-                    >
+                    <input type="text" class="form-control" id="callback_active_limit" name="callback_active_limit"
+                        aria-describedby="callback_active_limit">
                     <label for="callback_active_limit">Scheduled Callbacks Active Limit</label>
                 </div>
             </div>
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="callback_display_days"
-                           name="callback_display_days" aria-describedby="callback_display_days"
-                    >
+                    <input type="text" class="form-control" id="callback_display_days" name="callback_display_days"
+                        aria-describedby="callback_display_days">
                     <label for="callback_display_days">Scheduled Callbacks Display Days</label>
                 </div>
             </div>
@@ -1013,8 +993,7 @@ if(isset($_POST['campaign2'])){
                 <div class="form-group my-input">
 
                     <input type="text" class="form-control" id="callback_useronly_move_minutes"
-                           name="callback_useronly_move_minutes"
-                           aria-describedby="callback_useronly_move_minutes">
+                        name="callback_useronly_move_minutes" aria-describedby="callback_useronly_move_minutes">
                     <label for="callback_useronly_move_minutes">Scheduled Callbacks Useronly Move
                         Minutes</label>
                 </div>
@@ -1034,8 +1013,7 @@ if(isset($_POST['campaign2'])){
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_timezones_container"
-                            id="scheduled_callbacks_timezones_container">
+                    <select name="scheduled_callbacks_timezones_container" id="scheduled_callbacks_timezones_container">
                         <option></option>
                         <option value="DISABLED">---DISABLED---</option>
                         <option value="TIMEZONES_AUSTRALIA">TIMEZONES_AUSTRALIA - Australian
@@ -1053,8 +1031,7 @@ if(isset($_POST['campaign2'])){
 
             <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                 <div class="my-dropdown">
-                    <select name="scheduled_callbacks_auto_reschedule"
-                            id="scheduled_callbacks_auto_reschedule">
+                    <select name="scheduled_callbacks_auto_reschedule" id="scheduled_callbacks_auto_reschedule">
                         <option></option>
                         <option value='DISABLED'>DISABLED</option>
                         <option value='DAY_1'>DAY_1</option>
@@ -1082,11 +1059,10 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks-one" name="scheduled_callbacks"
-                           value="Y" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks-one" name="scheduled_callbacks" value="Y" check="yes"
+                        checked />
                     <label for="scheduled_callbacks-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks-two" name="scheduled_callbacks"
-                           value="N" check="no"/>
+                    <input type="radio" id="scheduled_callbacks-two" name="scheduled_callbacks" value="N" check="no" />
                     <label for="scheduled_callbacks-two">No</label>
                 </div>
             </div>
@@ -1094,11 +1070,11 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Send Callbacks Email</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks_email_alert-one"
-                           name="scheduled_callbacks_email_alert" value="Y" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks_email_alert-one" name="scheduled_callbacks_email_alert"
+                        value="Y" check="yes" checked />
                     <label for="scheduled_callbacks_email_alert-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks_email_alert-two"
-                           name="scheduled_callbacks_email_alert" value="N" check="no"/>
+                    <input type="radio" id="scheduled_callbacks_email_alert-two" name="scheduled_callbacks_email_alert"
+                        value="N" check="no" />
                     <label for="scheduled_callbacks_email_alert-two">No</label>
                 </div>
             </div>
@@ -1106,11 +1082,11 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks Active Limit Override</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="callback_active_limit_override-one"
-                           name="callback_active_limit_override" value="Y" check="yes" checked/>
+                    <input type="radio" id="callback_active_limit_override-one" name="callback_active_limit_override"
+                        value="Y" check="yes" checked />
                     <label for="callback_active_limit_override-one">Yes</label>
-                    <input type="radio" id="callback_active_limit_override-two"
-                           name="callback_active_limit_override" value="N" check="no"/>
+                    <input type="radio" id="callback_active_limit_override-two" name="callback_active_limit_override"
+                        value="N" check="no" />
                     <label for="callback_active_limit_override-two">No</label>
                 </div>
             </div>
@@ -1118,11 +1094,11 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Scheduled Callbacks Force Dial</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="scheduled_callbacks_force_dial-one"
-                           name="scheduled_callbacks_force_dial" value="Y" check="yes" checked/>
+                    <input type="radio" id="scheduled_callbacks_force_dial-one" name="scheduled_callbacks_force_dial"
+                        value="Y" check="yes" checked />
                     <label for="scheduled_callbacks_force_dial-one">Yes</label>
-                    <input type="radio" id="scheduled_callbacks_force_dial-two"
-                           name="scheduled_callbacks_force_dial" value="N" check="no"/>
+                    <input type="radio" id="scheduled_callbacks_force_dial-two" name="scheduled_callbacks_force_dial"
+                        value="N" check="no" />
                     <label for="scheduled_callbacks_force_dial-two">No</label>
                 </div>
             </div>
@@ -1132,8 +1108,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="drop_call_seconds"
-                           name="drop_call_seconds" aria-describedby="drop_call_seconds">
+                    <input type="text" class="form-control" id="drop_call_seconds" name="drop_call_seconds"
+                        aria-describedby="drop_call_seconds">
                     <label for="drop_call_seconds">Drop Call Seconds</label>
                 </div>
             </div>
@@ -1158,8 +1134,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="safe_harbor_exten"
-                           name="safe_harbor_exten" aria-describedby="safe_harbor_exten">
+                    <input type="text" class="form-control" id="safe_harbor_exten" name="safe_harbor_exten"
+                        aria-describedby="safe_harbor_exten">
                     <label for="safe_harbor_exten">Safe Harbor Exten</label>
                 </div>
             </div>
@@ -1167,8 +1143,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="safe_harbor_audio"
-                           name="safe_harbor_audio" aria-describedby="safe_harbor_audio">
+                    <input type="text" class="form-control" id="safe_harbor_audio" name="safe_harbor_audio"
+                        aria-describedby="safe_harbor_audio">
                     <label for="safe_harbor_audio">Safe Harbor Audio</label>
                 </div>
             </div>
@@ -1230,8 +1206,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="voicemail_ext"
-                           name="voicemail_ext" aria-describedby="voicemail_ext">
+                    <input type="text" class="form-control" id="voicemail_ext" name="voicemail_ext"
+                        aria-describedby="voicemail_ext">
                     <label for="voicemail_ext">Voicemail</label>
                 </div>
             </div>
@@ -1264,8 +1240,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="disable_dispo_status"
-                           name="disable_dispo_status" aria-describedby="disable_dispo_status">
+                    <input type="text" class="form-control" id="disable_dispo_status" name="disable_dispo_status"
+                        aria-describedby="disable_dispo_status">
                     <label for="disable_dispo_status">Disable Dispo Status</label>
                 </div>
             </div>
@@ -1273,8 +1249,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="wrapup_seconds"
-                           name="wrapup_seconds" aria-describedby="wrapup_seconds">
+                    <input type="text" class="form-control" id="wrapup_seconds" name="wrapup_seconds"
+                        aria-describedby="wrapup_seconds">
                     <label for="wrapup_seconds">Wrap Up Seconds</label>
                 </div>
             </div>
@@ -1282,8 +1258,8 @@ if(isset($_POST['campaign2'])){
             <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="wrapup_message"
-                           name="wrapup_message" aria-describedby="wrapup_message">
+                    <input type="text" class="form-control" id="wrapup_message" name="wrapup_message"
+                        aria-describedby="wrapup_message">
                     <label for="wrapup_message">Wrap Up Message</label>
                 </div>
             </div>
@@ -1315,11 +1291,10 @@ if(isset($_POST['campaign2'])){
             <div class="my-switch-field col-12 col-md-6 col-lg-4">
                 <h6>Script on top of Dispo</h6>
                 <div class="switch-field ">
-                    <input type="radio" id="script_top_dispo-one" name="script_top_dispo"
-                           value="N" check="yes" checked/>
+                    <input type="radio" id="script_top_dispo-one" name="script_top_dispo" value="N" check="yes"
+                        checked />
                     <label for="script_top_dispo-one">Yes</label>
-                    <input type="radio" id="script_top_dispo-two" name="script_top_dispo"
-                           value="N" check="no"/>
+                    <input type="radio" id="script_top_dispo-two" name="script_top_dispo" value="N" check="no" />
                     <label for="script_top_dispo-two">No</label>
                 </div>
             </div>

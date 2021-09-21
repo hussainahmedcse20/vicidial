@@ -11,13 +11,13 @@ $result = mysqli_query($conn, $sql);
         <div class="my-nav">
             <ul>
                 <li>
-                    <a class="nav-active" href="#add-user" data-toggle="modal"
-                        data-target="#add-user"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    <a class="nav-active" href="#add-user" data-toggle="modal" data-target="#add-user"><i
+                            class="fa fa-plus-circle" aria-hidden="true"></i>
                         Add New Campaign</a>
                 </li>
                 <li>
-                    <a href="#copy-user" data-toggle="modal" data-target="#copy-user"><i
-                            class="fa fa-clone" aria-hidden="true"></i> Copy Campaign</a>
+                    <a href="#copy-user" data-toggle="modal" data-target="#copy-user"><i class="fa fa-clone"
+                            aria-hidden="true"></i> Copy Campaign</a>
                 </li>
                 <li>
                     <input type="search" placeholder="Search" name="search" id="search-user">
@@ -32,8 +32,8 @@ $result = mysqli_query($conn, $sql);
                 <h4>Campaign AREACODE CID Listing</h4>
                 <div class="my-filter-dropdown">
                     <div class="dropdown">
-                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             <img src="../../assets/images/common-icons/filter_list.png" alt="">
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -63,7 +63,7 @@ $result = mysqli_query($conn, $sql);
                 </thead>
                 <tbody>
 
-                <?php
+                    <?php
                 while($row=mysqli_fetch_assoc($result)){
                     echo "<tr>";
                     echo " <td><a >".$row['campaign_id']."</a></td>";

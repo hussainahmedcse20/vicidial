@@ -115,7 +115,7 @@ $result =mysqli_query($conn,$sql);
                         <div class="my-input-with-help col-6">
                             <div class="form-group my-input">
                                 <input type="text" class="form-control" id="group_id" name="group_id"
-                                    aria-describedby="group_id" >
+                                    aria-describedby="group_id">
                                 <label for="group_id">Group ID</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -124,7 +124,7 @@ $result =mysqli_query($conn,$sql);
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="source_group_id" name="source_group_id"
-                                    aria-describedby="source_group_id" >
+                                    aria-describedby="source_group_id">
                                 <label for="source_group_id">Group Name</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -173,7 +173,7 @@ $result =mysqli_query($conn,$sql);
                         <div class="my-input-with-help col-6">
                             <div class="form-group my-input">
                                 <input type="text" class="form-control" id="group_id" name="group_id"
-                                    aria-describedby="group_id" >
+                                    aria-describedby="group_id">
                                 <label for="group_id">Group ID</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -182,7 +182,7 @@ $result =mysqli_query($conn,$sql);
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="group_name" name="group_name"
-                                    aria-describedby="group_name" >
+                                    aria-describedby="group_name">
                                 <label for="group_name">Group Name</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -191,7 +191,7 @@ $result =mysqli_query($conn,$sql);
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="group_color" name="group_color"
-                                    aria-describedby="group_color" >
+                                    aria-describedby="group_color">
                                 <label for="group_color">Group Color</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -223,7 +223,7 @@ $result =mysqli_query($conn,$sql);
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="web_form_address" name="web_form_address"
-                                    aria-describedby="web_form_address" >
+                                    aria-describedby="web_form_address">
                                 <label for="web_form_address">Web Form</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -232,7 +232,7 @@ $result =mysqli_query($conn,$sql);
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="voicemail_ext" name="voicemail_ext"
-                                    aria-describedby="voicemail_ext" >
+                                    aria-describedby="voicemail_ext">
                                 <label for="voicemail_ext">Voicemail</label>
                             </div>
                             <span class="error-msg">Error Msg</span>

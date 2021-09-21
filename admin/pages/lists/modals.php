@@ -1,4 +1,3 @@
-
 <!-- Copy user modal starts here -->
 <div class="modal fade" id="copy-user" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -17,7 +16,7 @@
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="campaign_id" name="campaign_id"
-                                       aria-describedby="campaign_id">
+                                    aria-describedby="campaign_id">
                                 <label for="campaign_id">List ID to Copy From</label>
                             </div>
                             <span class="error-msg">Error Msg</span>
@@ -54,8 +53,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
-                            data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit" >
+                        data-dismiss="modal">Cancel</button>
+                    <input class="my-btn-primary" type="submit" value="submit">
                 </div>
             </form>
         </div>
@@ -81,7 +80,7 @@
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="campaign_id" name="list_id "
-                                       aria-describedby="campaign_id">
+                                    aria-describedby="campaign_id">
                                 <label for="campaign_id">List ID</label>
                             </div>
 
@@ -90,7 +89,7 @@
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="campaign_name" name="list_name"
-                                       aria-describedby="campaign_name">
+                                    aria-describedby="campaign_name">
                                 <label for="campaign_name">List Name</label>
                             </div>
 
@@ -99,7 +98,7 @@
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="campaign_description"
-                                       name="list_description" aria-describedby="campaign_description">
+                                    name="list_description" aria-describedby="campaign_description">
                                 <label for="campaign_description">List Description</label>
                             </div>
 
@@ -134,7 +133,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
-                            data-dismiss="modal">Cancel</button>
+                        data-dismiss="modal">Cancel</button>
                     <input class="my-btn-primary" type="submit" value="submit" name="submit_list">
                 </div>
             </form>

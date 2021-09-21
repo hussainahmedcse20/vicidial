@@ -17,7 +17,7 @@ $datacamp= mysqli_fetch_assoc($result);
         <a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
         <h4>User Details</h4>
         <a href="#" data-toggle="modal" data-target="#confirmDelete"><img
-                    src="../../assets/images/common-icons/delete.png" alt=""></a>
+                src="../../assets/images/common-icons/delete.png" alt=""></a>
     </div>
 
     <div class="my-step-link my-step-link-lg">

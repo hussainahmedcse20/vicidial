@@ -80,8 +80,8 @@ $result=mysqli_query($conn, $sql);
     <div class="back-btn-title-delete">
         <a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
         <h4>Modify User Group</h4>
-        <a href="#" data-toggle="modal" data-target="#confirmDelete"><img
-                    src="../assets/images/common-icons/delete.png" alt=""></a>
+        <a href="#" data-toggle="modal" data-target="#confirmDelete"><img src="../assets/images/common-icons/delete.png"
+                alt=""></a>
     </div>
 
     <div class="my-form">
@@ -93,8 +93,8 @@ $result=mysqli_query($conn, $sql);
             <div class="row">
                 <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                     <div class="form-group my-input">
-                        <input type="text" class="form-control" id="user-group-name"
-                               name="user-group-name" aria-describedby="user-group-name"                                value="AGENTS " disabled>
+                        <input type="text" class="form-control" id="user-group-name" name="user-group-name"
+                            aria-describedby="user-group-name" value="AGENTS " disabled>
                         <label for="user-group-name">Group</label>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ $result=mysqli_query($conn, $sql);
                     <div class="form-group my-input">
 
                         <input type="text" class="form-control" id="group_name" name="group_name"
-                               aria-describedby="group_name" >
+                            aria-describedby="group_name">
                         <label for="group_name">Description</label>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ $result=mysqli_query($conn, $sql);
                 <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                     <div class="my-dropdown">
 
-                        <select name="forced_timeclock_login" id="forced_timeclock_login" >
+                        <select name="forced_timeclock_login" id="forced_timeclock_login">
                             <option value="ADMIN_EXEMPT" selected>ADMIN_EXEMPT</option>
                             <option value="Y">Y</option>
                             <option value="N">N</option>
@@ -123,66 +123,66 @@ $result=mysqli_query($conn, $sql);
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Status View Time</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_status_view_time-radio-one"
-                               name="agent_status_view_time" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_status_view_time-radio-one" name="agent_status_view_time"
+                            value="Y" check="yes" checked="">
                         <label for="agent_status_view_time-radio-one">Yes</label>
-                        <input type="radio" id="agent_status_view_time-radio-two"
-                               name="agent_status_view_time" value="N" check="no">
+                        <input type="radio" id="agent_status_view_time-radio-two" name="agent_status_view_time"
+                            value="N" check="no">
                         <label for="agent_status_view_time-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Call Log View</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_call_log_view-radio-one"
-                               name="agent_call_log_view" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_call_log_view-radio-one" name="agent_call_log_view" value="Y"
+                            check="yes" checked="">
                         <label for="agent_call_log_view-radio-one">Yes</label>
-                        <input type="radio" id="agent_call_log_view-radio-two"
-                               name="agent_call_log_view" value="N" check="no">
+                        <input type="radio" id="agent_call_log_view-radio-two" name="agent_call_log_view" value="N"
+                            check="no">
                         <label for="agent_call_log_view-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Allow Consultative Xfer</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_xfer_consultative-radio-one"
-                               name="agent_xfer_consultative" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_xfer_consultative-radio-one" name="agent_xfer_consultative"
+                            value="Y" check="yes" checked="">
                         <label for="agent_xfer_consultative-radio-one">Yes</label>
-                        <input type="radio" id="agent_xfer_consultative-radio-two"
-                               name="agent_xfer_consultative" value="N" check="no">
+                        <input type="radio" id="agent_xfer_consultative-radio-two" name="agent_xfer_consultative"
+                            value="N" check="no">
                         <label for="agent_xfer_consultative-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Allow Dial Override Xfer</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_xfer_dial_override-radio-one"
-                               name="agent_xfer_dial_override" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_xfer_dial_override-radio-one" name="agent_xfer_dial_override"
+                            value="Y" check="yes" checked="">
                         <label for="agent_xfer_dial_override-radio-one">Yes</label>
-                        <input type="radio" id="agent_xfer_dial_override-radio-two"
-                               name="agent_xfer_dial_override" value="N" check="no">
+                        <input type="radio" id="agent_xfer_dial_override-radio-two" name="agent_xfer_dial_override"
+                            value="N" check="no">
                         <label for="agent_xfer_dial_override-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Allow Voicemail Message Xfer</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_xfer_vm_transfer-radio-one"
-                               name="agent_xfer_vm_transfer" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_xfer_vm_transfer-radio-one" name="agent_xfer_vm_transfer"
+                            value="Y" check="yes" checked="">
                         <label for="agent_xfer_vm_transfer-radio-one">Yes</label>
-                        <input type="radio" id="agent_xfer_vm_transfer-radio-two"
-                               name="agent_xfer_vm_transfer" value="N" check="no">
+                        <input type="radio" id="agent_xfer_vm_transfer-radio-two" name="agent_xfer_vm_transfer"
+                            value="N" check="no">
                         <label for="agent_xfer_vm_transfer-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Allow Blind Xfer</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_xfer_blind_transfer-radio-one"
-                               name="agent_xfer_blind_transfer" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_xfer_blind_transfer-radio-one" name="agent_xfer_blind_transfer"
+                            value="Y" check="yes" checked="">
                         <label for="agent_xfer_blind_transfer-radio-one">Yes</label>
-                        <input type="radio" id="agent_xfer_blind_transfer-radio-two"
-                               name="agent_xfer_blind_transfer" value="N" check="no">
+                        <input type="radio" id="agent_xfer_blind_transfer-radio-two" name="agent_xfer_blind_transfer"
+                            value="N" check="no">
                         <label for="agent_xfer_blind_transfer-radio-two">No</label>
                     </div>
                 </div>
@@ -190,10 +190,10 @@ $result=mysqli_query($conn, $sql);
                     <h6>Agent Allow Dial With Customer Xfer</h6>
                     <div class="switch-field ">
                         <input type="radio" id="agent_xfer_dial_with_customer-radio-one"
-                               name="agent_xfer_dial_with_customer" value="Y" check="yes" checked="">
+                            name="agent_xfer_dial_with_customer" value="Y" check="yes" checked="">
                         <label for="agent_xfer_dial_with_customer-radio-one">Yes</label>
                         <input type="radio" id="agent_xfer_dial_with_customer-radio-two"
-                               name="agent_xfer_dial_with_customer" value="N" check="no">
+                            name="agent_xfer_dial_with_customer" value="N" check="no">
                         <label for="agent_xfer_dial_with_customer-radio-two">No</label>
                     </div>
                 </div>
@@ -201,32 +201,32 @@ $result=mysqli_query($conn, $sql);
                     <h6>Agent Allow Park Customer Dial Xfer</h6>
                     <div class="switch-field ">
                         <input type="radio" id="agent_xfer_park_customer_dial-radio-one"
-                               name="agent_xfer_park_customer_dial" value="Y" check="yes" checked="">
+                            name="agent_xfer_park_customer_dial" value="Y" check="yes" checked="">
                         <label for="agent_xfer_park_customer_dial-radio-one">Yes</label>
                         <input type="radio" id="agent_xfer_park_customer_dial-radio-two"
-                               name="agent_xfer_park_customer_dial" value="N" check="no">
+                            name="agent_xfer_park_customer_dial" value="N" check="no">
                         <label for="agent_xfer_park_customer_dial-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Allow Park Xfer</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_xfer_park_3way-radio-one"
-                               name="agent_xfer_park_3way" value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_xfer_park_3way-radio-one" name="agent_xfer_park_3way" value="Y"
+                            check="yes" checked="">
                         <label for="agent_xfer_park_3way-radio-one">Yes</label>
-                        <input type="radio" id="agent_xfer_park_3way-radio-two"
-                               name="agent_xfer_park_3way" value="N" check="no">
+                        <input type="radio" id="agent_xfer_park_3way-radio-two" name="agent_xfer_park_3way" value="N"
+                            check="no">
                         <label for="agent_xfer_park_3way-radio-two">No</label>
                     </div>
                 </div>
                 <div class="my-switch-field col-12 col-md-6 col-lg-4">
                     <h6>Agent Fullscreen:</h6>
                     <div class="switch-field ">
-                        <input type="radio" id="agent_fullscreen-radio-one" name="agent_fullscreen"
-                               value="Y" check="yes" checked="">
+                        <input type="radio" id="agent_fullscreen-radio-one" name="agent_fullscreen" value="Y"
+                            check="yes" checked="">
                         <label for="agent_fullscreen-radio-one">Yes</label>
-                        <input type="radio" id="agent_fullscreen-radio-two" name="agent_fullscreen"
-                               value="N" check="no">
+                        <input type="radio" id="agent_fullscreen-radio-two" name="agent_fullscreen" value="N"
+                            check="no">
                         <label for="agent_fullscreen-radio-two">No</label>
                     </div>
                 </div>
@@ -234,9 +234,8 @@ $result=mysqli_query($conn, $sql);
                 <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                     <div class="form-group my-input">
 
-                        <input type="text" class="form-control" id="webphone_url_override"
-                               name="webphone_url_override" aria-describedby="webphone_url_override"
-                               >
+                        <input type="text" class="form-control" id="webphone_url_override" name="webphone_url_override"
+                            aria-describedby="webphone_url_override">
                         <label for="webphone_url_override">Webphone URL Override</label>
                     </div>
                 </div>
@@ -244,16 +243,14 @@ $result=mysqli_query($conn, $sql);
                     <div class="form-group my-input">
 
                         <input type="text" class="form-control" id="webphone_systemkey_override"
-                               name="webphone_systemkey_override"
-                               aria-describedby="webphone_systemkey_override" >
+                            name="webphone_systemkey_override" aria-describedby="webphone_systemkey_override">
                         <label for="webphone_systemkey_override">Webphone System Key Override</label>
                     </div>
                 </div>
                 <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                     <div class="my-dropdown">
 
-                        <select name="webphone_dialpad_override" id="webphone_dialpad_override"
-                                >
+                        <select name="webphone_dialpad_override" id="webphone_dialpad_override">
                             <option value="DISABLED">DISABLED</option>
                             <option value="Y">Y</option>
                             <option value="N">N</option>
@@ -268,15 +265,15 @@ $result=mysqli_query($conn, $sql);
                 <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                     <div class="form-group my-input">
 
-                        <input type="text" class="form-control" id="webphone_layout"
-                               name="webphone_layout" aria-describedby="webphone_layout" >
+                        <input type="text" class="form-control" id="webphone_layout" name="webphone_layout"
+                            aria-describedby="webphone_layout">
                         <label for="webphone_layout">Webphone Layout Override</label>
                     </div>
                 </div>
                 <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                     <div class="my-dropdown">
 
-                        <select name="admin_ip_list" id="admin_ip_list" >
+                        <select name="admin_ip_list" id="admin_ip_list">
                             <option value="DISABLED" selected>DISABLED</option>
                         </select>
 
@@ -288,7 +285,7 @@ $result=mysqli_query($conn, $sql);
                 <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
                     <div class="my-dropdown">
 
-                        <select name="agent_ip_list" id="agent_ip_list" >
+                        <select name="agent_ip_list" id="agent_ip_list">
                             <option value="DISABLED" selected=""> --- DISABLED ---</option>
                         </select>
                         <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
@@ -296,73 +293,66 @@ $result=mysqli_query($conn, $sql);
                     </div>
                 </div>
 
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Allowed Campaigns: </h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
-                            <input type="checkbox" id="allowed_user_camp_2" name="campaigns[]"
-                                   class="mr-3 mb-2">
+                            <input type="checkbox" id="allowed_user_camp_2" name="campaigns[]" class="mr-3 mb-2">
                             <label for="allowed_user_camp_2">DEMO - DEMO Camp</label>
                         </div>
                         <div class="single-input">
-                            <input type="checkbox" id="allowed_user_camp_1" name="campaigns[]"
-                                   class="mr-3 mb-2">
+                            <input type="checkbox" id="allowed_user_camp_1" name="campaigns[]" class="mr-3 mb-2">
                             <label for="allowed_user_camp_1">Hopper Drop-Run Trigger</label>
                         </div>
                         <div class="single-input">
                         </div>
                     </div>
                 </div>
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Group Shifts: </h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
-                            <input type="checkbox" id="group_shifts[]" name="campaigns[]"
-                                   class="mr-3 mb-2">
+                            <input type="checkbox" id="group_shifts[]" name="campaigns[]" class="mr-3 mb-2">
                             <label for="group_shifts[]">24HRMIDNIGHT</label>
                         </div>
                     </div>
                 </div>
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Agent Status Viewable Groups: </h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
                             <input type="checkbox" id="agent_status_viewable_groups[1]"
-                                   name="agent_status_viewable_groups[]" class="mr-3 mb-2">
+                                name="agent_status_viewable_groups[]" class="mr-3 mb-2">
                             <label for="agent_status_viewable_groups[1]">ALL-GROUPS</label>
                             <input type="checkbox" id="agent_status_viewable_groups[2]"
-                                   name="agent_status_viewable_groups[]" class="mr-3 mb-2">
+                                name="agent_status_viewable_groups[]" class="mr-3 mb-2">
                             <label for="agent_status_viewable_groups[2]">CAMPAIGN-AGENTS</label>
                             <input type="checkbox" id="agent_status_viewable_groups[3]"
-                                   name="agent_status_viewable_groups[]" class="mr-3 mb-2">
+                                name="agent_status_viewable_groups[]" class="mr-3 mb-2">
                             <label for="agent_status_viewable_groups[3]">NOT-LOGGED-IN-AGENTS</label>
                         </div>
                     </div>
                 </div>
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Agent Allowed Chat Groups: </h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
-                            <input type="checkbox" id="agent_allowed_chat_groups[1]"
-                                   name="agent_allowed_chat_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="agent_allowed_chat_groups[1]" name="agent_allowed_chat_groups[]"
+                                class="mr-3 mb-2">
                             <label for="agent_allowed_chat_groups[1]">ALL-GROUPS</label>
-                            <input type="checkbox" id="agent_allowed_chat_groups[2]"
-                                   name="agent_allowed_chat_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="agent_allowed_chat_groups[2]" name="agent_allowed_chat_groups[]"
+                                class="mr-3 mb-2">
                             <label for="agent_allowed_chat_groups[2]">CAMPAIGN-AGENTS</label>
-                            <input type="checkbox" id="agent_allowed_chat_groups[3]"
-                                   name="agent_allowed_chat_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="agent_allowed_chat_groups[3]" name="agent_allowed_chat_groups[]"
+                                class="mr-3 mb-2">
                             <label for="agent_allowed_chat_groups[3]">NOT-LOGGED-IN-AGENTS</label>
                         </div>
                     </div>
@@ -371,7 +361,7 @@ $result=mysqli_query($conn, $sql);
                     <div class="my-dropdown">
 
                         <select multiple size="6" name="allowed_reports" id="allowed_reports[]"
-                                style="height: auto;padding: 10px 15px 10px 15px;" required>
+                            style="height: auto;padding: 10px 15px 10px 15px;" required>
                             <option value="ALL REPORTS" selected="">ALL REPORTS</option>
                             <option value=" NONE"> NONE</option>
                             <option value=" Real-Time Main Report"> Real-Time Main Report</option>
@@ -482,40 +472,38 @@ $result=mysqli_query($conn, $sql);
                     </div>
                 </div>
 
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Allowed User Groups </h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
-                            <input type="checkbox" id="admin_viewable_groups[1]"
-                                   name="admin_viewable_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="admin_viewable_groups[1]" name="admin_viewable_groups[]"
+                                class="mr-3 mb-2">
                             <label for="admin_viewable_groups[1]">ALL-GROUPS</label>
-                            <input type="checkbox" id="dmin_viewable_groups[2]"
-                                   name="admin_viewable_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="dmin_viewable_groups[2]" name="admin_viewable_groups[]"
+                                class="mr-3 mb-2">
                             <label for="dmin_viewable_groups[2]">CAMPAIGN-AGENTS</label>
-                            <input type="checkbox" id="dmin_viewable_groups[3]"
-                                   name="admin_viewable_groups[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="dmin_viewable_groups[3]" name="admin_viewable_groups[]"
+                                class="mr-3 mb-2">
                             <label for="dmin_viewable_groups[3]">NOT-LOGGED-IN-AGENTS</label>
                         </div>
                     </div>
                 </div>
-                <div
-                        class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
+                <div class="checkbox-input my-input-with-help col-lg-4 d-flex flex-row align-items-center mt-3 mb-5">
                     <div class="user-allow">
                         <h6>Allowed Call Times</h6>
                     </div>
                     <div class="all-inputs">
                         <div class="single-input">
-                            <input type="checkbox" id="admin_viewable_call_times[1]"
-                                   name="admin_viewable_call_times[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="admin_viewable_call_times[1]" name="admin_viewable_call_times[]"
+                                class="mr-3 mb-2">
                             <label for="admin_viewable_call_times[1]">ALL-GROUPS</label>
-                            <input type="checkbox" id="admin_viewable_call_times[2]"
-                                   name="admin_viewable_call_times[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="admin_viewable_call_times[2]" name="admin_viewable_call_times[]"
+                                class="mr-3 mb-2">
                             <label for="admin_viewable_call_times[2]">CAMPAIGN-AGENTS</label>
-                            <input type="checkbox" id="admin_viewable_call_times[3]"
-                                   name="admin_viewable_call_times[]" class="mr-3 mb-2">
+                            <input type="checkbox" id="admin_viewable_call_times[3]" name="admin_viewable_call_times[]"
+                                class="mr-3 mb-2">
                             <label for="admin_viewable_call_times[3]">NOT-LOGGED-IN-AGENTS</label>
                         </div>
                     </div>
@@ -534,44 +522,44 @@ $result=mysqli_query($conn, $sql);
             </div>
             <table class="all-user-table table table-hover">
                 <thead>
-                <tr>
-                    <th scope="col"><a href="#">USER</a></th>
-                    <th scope="col"><a href="#">FULL NAME </a></th>
-                    <th scope="col"><a href="#">ACTIVE</a></th>
-                    <th scope="col"><a href="#">LEVEL</a></th>
+                    <tr>
+                        <th scope="col"><a href="#">USER</a></th>
+                        <th scope="col"><a href="#">FULL NAME </a></th>
+                        <th scope="col"><a href="#">ACTIVE</a></th>
+                        <th scope="col"><a href="#">LEVEL</a></th>
 
-                </tr>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td><a href="#">3001</a></td>
-                    <td>Tazbin Ahad</td>
-                    <td><span class="active-yes">Yes</span></td>
-                    <td>All</td>
+                    <tr>
+                        <td><a href="#">3001</a></td>
+                        <td>Tazbin Ahad</td>
+                        <td><span class="active-yes">Yes</span></td>
+                        <td>All</td>
 
-                </tr>
+                    </tr>
 
-                <tr>
-                    <td><a href="#">3001</a></td>
-                    <td>Demo Campaign</td>
-                    <td><span class="active-yes">Yes</span></td>
-                    <td>All</td>
-                </tr>
+                    <tr>
+                        <td><a href="#">3001</a></td>
+                        <td>Demo Campaign</td>
+                        <td><span class="active-yes">Yes</span></td>
+                        <td>All</td>
+                    </tr>
 
-                <tr>
-                    <td><a href="#">3001</a></td>
-                    <td>Demo Campaign</td>
-                    <td><span class="active-yes">Yes</span></td>
-                    <td>All</td>
+                    <tr>
+                        <td><a href="#">3001</a></td>
+                        <td>Demo Campaign</td>
+                        <td><span class="active-yes">Yes</span></td>
+                        <td>All</td>
 
-                </tr>
+                    </tr>
 
-                <tr>
-                    <td><a href="#">3001</a></td>
-                    <td>Demo Campaign</td>
-                    <td><span class="active-yes">Yes</span></td>
-                    <td>All</td>
-                </tr>
+                    <tr>
+                        <td><a href="#">3001</a></td>
+                        <td>Demo Campaign</td>
+                        <td><span class="active-yes">Yes</span></td>
+                        <td>All</td>
+                    </tr>
 
                 </tbody>
             </table>
@@ -585,8 +573,7 @@ $result=mysqli_query($conn, $sql);
                     <div class="row justify-content-start align-items-center">
                         <div class="col-lg-12 col-md-12">
                             <div class="row justify-content-center">
-                                <div
-                                        class="my-dropdown-with-help col-12 col-md-6 col-lg-12 flex-column">
+                                <div class="my-dropdown-with-help col-12 col-md-6 col-lg-12 flex-column">
                                     <h5>Add or Remove In-Group Selected For Active Users in This User
                                         Group</h5>
 
@@ -595,14 +582,12 @@ $result=mysqli_query($conn, $sql);
                                             <option value="add" selected="">add</option>
                                             <option value="remove">remove</option>
                                         </select>
-                                        <i class="fa fa-caret-down my-dropdown-arrow"
-                                           aria-hidden="true"></i>
+                                        <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                                         <label for="stage"
-                                               style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
+                                            style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                     </div>
                                 </div>
-                                <div
-                                        class="my-input-with-help col-12 col-md-6 col-lg-12 align-items-center ">
+                                <div class="my-input-with-help col-12 col-md-6 col-lg-12 align-items-center ">
                                     <h5>In-Group</h5>
                                     <div class="my-dropdown">
                                         <select name="group_id" id="group_id">
@@ -613,10 +598,9 @@ $result=mysqli_query($conn, $sql);
                                                 Direct Queue for Chats
                                             </option>
                                         </select>
-                                        <i class="fa fa-caret-down my-dropdown-arrow"
-                                           aria-hidden="true"></i>
+                                        <i class="fa fa-caret-down my-dropdown-arrow" aria-hidden="true"></i>
                                         <label for="group_id"
-                                               style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
+                                            style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                     </div>
                                 </div>
                                 <input type="submit" value="Submit" class="my-btn-primary">
@@ -631,18 +615,17 @@ $result=mysqli_query($conn, $sql);
         </form>
         <div class="all-other-links d-flex flex-wrap py-5" style="justify-content: space-evenly;">
             <a href="#" class="btn my-btn-primary mt-4"><span>See all CallBack Holds in this user
-                                    group</span></a>
+                    group</span></a>
             <a href="#" class="btn my-btn-primary mt-4"><span>See the Timeclock Status for this user
-                                    group</span></a>
+                    group</span></a>
             <a href="#" class="btn my-btn-primary mt-4"><span>See Admin changes to this user
-                                    group</span></a>
+                    group</span></a>
 
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="confirmDelete" tabindex="-1" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
+<div class="modal fade" id="confirmDelete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

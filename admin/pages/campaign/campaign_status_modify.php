@@ -63,7 +63,7 @@ $result=mysqli_query($conn, $sql);
                     <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
                         <div class="form-group my-input">
                             <input type="text" class="form-control" id="status_id" name="status_id"
-                                   aria-describedby="status_id" required>
+                                aria-describedby="status_id" required>
                             <label for="status_id">Status</label>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ $result=mysqli_query($conn, $sql);
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="status_name" name="status_name"
-                                   aria-describedby="status_name" required>
+                                aria-describedby="status_name" required>
                             <label for="status_name">Description</label>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ $result=mysqli_query($conn, $sql);
                         <h6>Human Answer</h6>
                         <div class="switch-field ">
                             <input type="radio" id="human_answered-one" name="human_answered" value="1" check="yes"
-                                   checked />
+                                checked />
                             <label for="human_answered-one">Yes</label>
                             <input type="radio" id="human_answered-two" name="human_answered" value="0" check="no" />
                             <label for="human_answered-two">No</label>
@@ -133,10 +133,10 @@ $result=mysqli_query($conn, $sql);
                         <h6>Customer Contact</h6>
                         <div class="switch-field ">
                             <input type="radio" id="customer_contact-one" name="customer_contact" value="1" check="yes"
-                                   checked />
+                                checked />
                             <label for="customer_contact-one">Yes</label>
                             <input type="radio" id="customer_contact-two" name="customer_contact" value="0"
-                                   check="no" />
+                                check="no" />
                             <label for="customer_contact-two">No</label>
                         </div>
                     </div>
@@ -145,10 +145,10 @@ $result=mysqli_query($conn, $sql);
                         <h6>Answering Machine</h6>
                         <div class="switch-field ">
                             <input type="radio" id="answering_machine-one" name="answering_machine" value="1"
-                                   check="yes" checked />
+                                check="yes" checked />
                             <label for="answering_machine-one">Yes</label>
                             <input type="radio" id="answering_machine-two" name="answering_machine" value="0"
-                                   check="no" />
+                                check="no" />
                             <label for="answering_machine-two">No</label>
                         </div>
                     </div>
@@ -157,10 +157,10 @@ $result=mysqli_query($conn, $sql);
                         <h6>Callback</h6>
                         <div class="switch-field ">
                             <input type="radio" id="scheduled_callbacks-one" name="scheduled_callbacks" value="1"
-                                   check="yes" checked />
+                                check="yes" checked />
                             <label for="scheduled_callbacks-one">Yes</label>
                             <input type="radio" id="scheduled_callbacks-two" name="scheduled_callbacks" value="0"
-                                   check="no" />
+                                check="no" />
                             <label for="scheduled_callbacks-two">No</label>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ $result=mysqli_query($conn, $sql);
                         <h6>Not Interested</h6>
                         <div class="switch-field ">
                             <input type="radio" id="not_interested-one" name="not_interested" value="1" check="yes"
-                                   checked />
+                                checked />
                             <label for="not_interested-one">Yes</label>
                             <input type="radio" id="not_interested-two" name="not_interested" value="0" check="no" />
                             <label for="not_interested-two">No</label>
@@ -211,29 +211,29 @@ $result=mysqli_query($conn, $sql);
             <div class="my-secondary-table table-responsive">
                 <table class="table table-bordered">
                     <thead>
-                    <tr>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">DESCRIPTION</th>
-                        <th scope="col">CATEGORY</th>
-                        <th scope="col">AGENT SELECTABLE</th>
-                        <th scope="col">HUMAN ANSWER</th>
-                        <th scope="col">SALE</th>
-                        <th scope="col">DNC</th>
-                        <th scope="col">CUSTOMER CONTACT</th>
-                        <th scope="col">NOT INTERESTED</th>
-                        <th scope="col">UNWORKABLE</th>
-                        <th scope="col">SCHEDULED CALLBACK</th>
-                        <th scope="col">COMPLETED</th>
-                        <th scope="col">ANSWERING MACHINE</th>
-                        <th scope="col">MIN SEC</th>
-                        <th scope="col">MAX SEC</th>
-                        <th scope="col">MODIFY/DELETE</th>
-                    </tr>
+                        <tr>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">DESCRIPTION</th>
+                            <th scope="col">CATEGORY</th>
+                            <th scope="col">AGENT SELECTABLE</th>
+                            <th scope="col">HUMAN ANSWER</th>
+                            <th scope="col">SALE</th>
+                            <th scope="col">DNC</th>
+                            <th scope="col">CUSTOMER CONTACT</th>
+                            <th scope="col">NOT INTERESTED</th>
+                            <th scope="col">UNWORKABLE</th>
+                            <th scope="col">SCHEDULED CALLBACK</th>
+                            <th scope="col">COMPLETED</th>
+                            <th scope="col">ANSWERING MACHINE</th>
+                            <th scope="col">MIN SEC</th>
+                            <th scope="col">MAX SEC</th>
+                            <th scope="col">MODIFY/DELETE</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td colspan="16">No data available</td>
-                    </tr>
+                        <tr>
+                            <td colspan="16">No data available</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

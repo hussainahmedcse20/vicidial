@@ -7,7 +7,7 @@ $result =mysqli_query($conn,$sql);
  
  
  
- ?> 
+ ?>
 
 <!-- =========Show User Groups Start -->
 <div>

@@ -121,21 +121,21 @@ echo $sql;
             <div class="my-secondary-table">
                 <table class="table table-bordered">
                     <thead>
-                    <tr>
-                        <th scope="col">HOTKEY</th>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">CATEGORY</th>
-                        <th scope="col">DELETE</th>
+                        <tr>
+                            <th scope="col">HOTKEY</th>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">CATEGORY</th>
+                            <th scope="col">DELETE</th>
 
-                    </tr>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1001</td>
-                        <td>A</td>
-                        <td>Answering Machine</td>
-                        <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                    </tr>
+                        <tr>
+                            <td>1001</td>
+                            <td>A</td>
+                            <td>Answering Machine</td>
+                            <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

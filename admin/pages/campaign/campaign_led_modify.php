@@ -91,7 +91,7 @@ echo $sql;
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="attempt_delay" value="xyz" name="attempt_delay"
-                                   aria-describedby="attempt_delay" /> <label for="attempt_delay">Attempt Delay</label>
+                                aria-describedby="attempt_delay" /> <label for="attempt_delay">Attempt Delay</label>
                         </div>
                     </div>
 
@@ -99,7 +99,7 @@ echo $sql;
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="attempt_maximum" name="attempt_maximum"
-                                   aria-describedby="attempt_maximum" /> <label for="attempt_maximum">Attempt
+                                aria-describedby="attempt_maximum" /> <label for="attempt_maximum">Attempt
                                 Maximum</label>
                         </div>
                     </div>
@@ -119,25 +119,25 @@ echo $sql;
             <div class="my-secondary-table">
                 <table class="table table-bordered">
                     <thead>
-                    <tr>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">ATTEMPT DELAY</th>
-                        <th scope="col">ATTEMPT MAXIMUM</th>
-                        <th scope="col">LEADS AT LIMIT</th>
-                        <th scope="col">ACTIVE</th>
-                        <th scope="col">DELETE</th>
+                        <tr>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">ATTEMPT DELAY</th>
+                            <th scope="col">ATTEMPT MAXIMUM</th>
+                            <th scope="col">LEADS AT LIMIT</th>
+                            <th scope="col">ACTIVE</th>
+                            <th scope="col">DELETE</th>
 
-                    </tr>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1001</td>
-                        <td>10.00.00</td>
-                        <td>00.00.00</td>
-                        <td>10000</td>
-                        <td><span class="active-yes">Yes</span></td>
-                        <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                    </tr>
+                        <tr>
+                            <td>1001</td>
+                            <td>10.00.00</td>
+                            <td>00.00.00</td>
+                            <td>10000</td>
+                            <td><span class="active-yes">Yes</span></td>
+                            <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

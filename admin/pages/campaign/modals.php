@@ -1,8 +1,7 @@
 <!--Add Campaign Modal -->
 
 <!-- Copy user modal starts here -->
-<div class="modal fade" id="copy-user" tabindex="-1" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
+<div class="modal fade" id="copy-user" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -18,8 +17,8 @@
                         <div class="my-input-with-help col-6">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="campaign_id"
-                                       name="campaign_id" aria-describedby="campaign_id">
+                                <input type="text" class="form-control" id="campaign_id" name="campaign_id"
+                                    aria-describedby="campaign_id">
                                 <label for="campaign_id">Campaign ID</label>
                             </div>
 
@@ -27,8 +26,8 @@
                         <div class="my-input-with-help col-6">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="campaign_name"
-                                       name="campaign_name" aria-describedby="campaign_name">
+                                <input type="text" class="form-control" id="campaign_name" name="campaign_name"
+                                    aria-describedby="campaign_name">
                                 <label for="campaign_name">Campaign Name</label>
                             </div>
 
@@ -50,8 +49,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary my-btn-secondary"
-                            data-dismiss="modal">Cancel
+                    <button type="button" class="btn btn-secondary my-btn-secondary" data-dismiss="modal">Cancel
                     </button>
                     <input class="my-btn-primary" type="submit" value="submit">
                 </div>
@@ -62,8 +60,7 @@
 <!-- Copy user modal ends here -->
 
 <!-- Add user modal starts here -->
-<div class="modal fade" id="add-user" tabindex="-1" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
+<div class="modal fade" id="add-user" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div style="min-width: 1080px;" class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -79,16 +76,16 @@
                         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="campaign_id"
-                                       name="campaign_id" aria-describedby="campaign_id">
+                                <input type="text" class="form-control" id="campaign_id" name="campaign_id"
+                                    aria-describedby="campaign_id">
                                 <label for="campaign_id">Campaign ID</label>
                             </div>
                         </div>
                         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="campaign_name"
-                                       name="campaign_name" aria-describedby="campaign_name">
+                                <input type="text" class="form-control" id="campaign_name" name="campaign_name"
+                                    aria-describedby="campaign_name">
                                 <label for="campaign_name">Campaign Name</label>
                             </div>
                         </div>
@@ -96,8 +93,7 @@
                             <div class="form-group my-input">
 
                                 <input type="text" class="form-control" id="campaign_description"
-                                       name="campaign_description"
-                                       aria-describedby="campaign_description">
+                                    name="campaign_description" aria-describedby="campaign_description">
                                 <label for="campaign_description">Campaign Description</label>
                             </div>
                         </div>
@@ -118,19 +114,17 @@
                         <div class="my-switch-field col-12 col-md-6 col-lg-4">
                             <h6>Active</h6>
                             <div class="switch-field ">
-                                <input type="radio" id="active-radio-one" name="active" value="Y"
-                                       check="yes" checked/>
+                                <input type="radio" id="active-radio-one" name="active" value="Y" check="yes" checked />
                                 <label for="active-radio-one">Yes</label>
-                                <input type="radio" id="active-radio-two" name="active" value="N"
-                                       check="no"/>
+                                <input type="radio" id="active-radio-two" name="active" value="N" check="no" />
                                 <label for="active-radio-two">No</label>
                             </div>
                         </div>
                         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="park_file_name"
-                                       name="park_file_name" aria-describedby="park_file_name">
+                                <input type="text" class="form-control" id="park_file_name" name="park_file_name"
+                                    aria-describedby="park_file_name">
                                 <label for="park_file_name">Park Music-on-Hold</label>
                             </div>
 
@@ -138,9 +132,8 @@
                         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="web_form_address"
-                                       name="web_form_address" aria-describedby="web_form_address"
-                                       required>
+                                <input type="text" class="form-control" id="web_form_address" name="web_form_address"
+                                    aria-describedby="web_form_address" required>
                                 <label for="web_form_address">Web Form</label>
                             </div>
 
@@ -148,11 +141,11 @@
                         <div class="my-switch-field col-12 col-md-6 col-lg-4">
                             <h6>Allow Closers</h6>
                             <div class="switch-field ">
-                                <input type="radio" id="allow_closers-radio-one" name="allow_closers"
-                                       value="Y" check="yes" checked/>
+                                <input type="radio" id="allow_closers-radio-one" name="allow_closers" value="Y"
+                                    check="yes" checked />
                                 <label for="allow_closers-radio-one">Yes</label>
-                                <input type="radio" id="allow_closers-radio-two" name="allow_closers"
-                                       value="N" check="no"/>
+                                <input type="radio" id="allow_closers-radio-two" name="allow_closers" value="N"
+                                    check="no" />
                                 <label for="allow_closers-radio-two">No</label>
                             </div>
                         </div>
@@ -265,8 +258,8 @@
                         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
                             <div class="form-group my-input">
 
-                                <input type="text" class="form-control" id="voicemail_ext"
-                                       name="voicemail_ext" aria-describedby="voicemail_ext">
+                                <input type="text" class="form-control" id="voicemail_ext" name="voicemail_ext"
+                                    aria-describedby="voicemail_ext">
                                 <label for="voicemail_ext">Voicemail</label>
                             </div>
 
@@ -322,8 +315,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary my-btn-secondary"
-                            data-dismiss="modal">Cancel
+                    <button type="button" class="btn btn-secondary my-btn-secondary" data-dismiss="modal">Cancel
                     </button>
                     <input class="my-btn-primary" type="submit" value="submit" name="add_campaign">
                 </div>

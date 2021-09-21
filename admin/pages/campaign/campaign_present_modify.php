@@ -60,7 +60,7 @@ $camp->preset_hide_number= $_POST['preset_hide_number'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="preset_name" name="preset_name"
-                                   aria-describedby="preset_name" required>
+                                aria-describedby="preset_name" required>
                             <label for="preset_name">Preset Name</label>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ $camp->preset_hide_number= $_POST['preset_hide_number'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="preset_number" name="preset_number"
-                                   aria-describedby="preset_number" required>
+                                aria-describedby="preset_number" required>
                             <label for="preset_number">Number</label>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ $camp->preset_hide_number= $_POST['preset_hide_number'];
                         <div class="form-group my-input">
 
                             <input type="text" class="form-control" id="preset_dtmf" name="preset_dtmf"
-                                   aria-describedby="preset_dtmf" required>
+                                aria-describedby="preset_dtmf" required>
                             <label for="preset_dtmf">DTMF</label>
                         </div>
                     </div>
@@ -87,10 +87,10 @@ $camp->preset_hide_number= $_POST['preset_hide_number'];
                         <h6>Hide Number</h6>
                         <div class="switch-field ">
                             <input type="radio" id="preset_hide_number-one" name="preset_hide_number" value="1"
-                                   check="yes" checked />
+                                check="yes" checked />
                             <label for="preset_hide_number-one">Yes</label>
                             <input type="radio" id="preset_hide_number-two" name="preset_hide_number" value="0"
-                                   check="no" />
+                                check="no" />
                             <label for="preset_hide_number-two">No</label>
                         </div>
                     </div>
@@ -113,27 +113,27 @@ $camp->preset_hide_number= $_POST['preset_hide_number'];
             <div class="my-secondary-table">
                 <table class="table table-bordered">
                     <thead>
-                    <tr>
-                        <th scope="col">SL</th>
-                        <th scope="col">PRESET NAME</th>
-                        <th scope="col">NUMBER</th>
-                        <th scope="col">DTMF</th>
-                        <th scope="col">HIDE NUMBER</th>
-                        <th>MODIFY</th>
-                        <th scope="col">DELETE</th>
+                        <tr>
+                            <th scope="col">SL</th>
+                            <th scope="col">PRESET NAME</th>
+                            <th scope="col">NUMBER</th>
+                            <th scope="col">DTMF</th>
+                            <th scope="col">HIDE NUMBER</th>
+                            <th>MODIFY</th>
+                            <th scope="col">DELETE</th>
 
-                    </tr>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1001</td>
-                        <td>Warehouse</td>
-                        <td>123456</td>
-                        <td>123456</td>
-                        <td><span class="active-yes">Yes</span></td>
-                        <td><a href="">Modify</a></td>
-                        <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                    </tr>
+                        <tr>
+                            <td>1001</td>
+                            <td>Warehouse</td>
+                            <td>123456</td>
+                            <td>123456</td>
+                            <td><span class="active-yes">Yes</span></td>
+                            <td><a href="">Modify</a></td>
+                            <td><a href=""><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

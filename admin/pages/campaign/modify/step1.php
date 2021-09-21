@@ -132,7 +132,7 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="campaign_id" name="campaign_id"
-                       aria-describedby="campaign_id" value="<?= $datacamp['campaign_id'] ?>">
+                    aria-describedby="campaign_id" value="<?= $datacamp['campaign_id'] ?>">
                 <label for="campaign_id">Campaing ID</label>
             </div>
         </div>
@@ -140,17 +140,15 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="campaign_name" name="campaign_name"
-                       aria-describedby="campaign_name" value="<?= $datacamp['campaign_name'] ?>">
+                    aria-describedby="campaign_name" value="<?= $datacamp['campaign_name'] ?>">
                 <label for="campaign_name">Campaign Name</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="campaign_description"
-                       name="campaign_description" aria-describedby="campaign_description"
-                       value="<?= $datacamp['campaign_description'] ?>"
-                >
+                <input type="text" class="form-control" id="campaign_description" name="campaign_description"
+                    aria-describedby="campaign_description" value="<?= $datacamp['campaign_description'] ?>">
                 <label for="campaign_description">Campaign Description</label>
             </div>
         </div>
@@ -194,15 +192,13 @@ if (isset($_POST['campaign1'])) {
             <div class="my-input-with-help  ">
                 <div class="form-group my-input">
 
-                    <input type="text" class="form-control" id="park_file_name"
-                           name="park_file_name" aria-describedby="park_file_name"
-                           value="<?= $datacamp['park_file_name'] ?>">
+                    <input type="text" class="form-control" id="park_file_name" name="park_file_name"
+                        aria-describedby="park_file_name" value="<?= $datacamp['park_file_name'] ?>">
                     <label for="park_file_name">Park Music-On-Hold</label>
                 </div>
             </div>
 
-            <a type="button" class="btn btn-primary voice-dropdown" data-toggle="modal"
-               data-target="#exampleModal">
+            <a type="button" class="btn btn-primary voice-dropdown" data-toggle="modal" data-target="#exampleModal">
                 moh
             </a>
 
@@ -213,34 +209,32 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="web_form_address"
-                       name="web_form_address" aria-describedby="web_form_address"
-                       value="<?= $datacamp['web_form_address'] ?>">
+                <input type="text" class="form-control" id="web_form_address" name="web_form_address"
+                    aria-describedby="web_form_address" value="<?= $datacamp['web_form_address'] ?>">
                 <label for="web_form_address">Web Form</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="web_form_address_two"
-                       name="web_form_address_two" aria-describedby="web_form_address_two"
-                       value="<?= $datacamp['web_form_address_two'] ?>">
+                <input type="text" class="form-control" id="web_form_address_two" name="web_form_address_two"
+                    aria-describedby="web_form_address_two" value="<?= $datacamp['web_form_address_two'] ?>">
                 <label for="web_form_address_two">Web Form Two</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="web_form_address_three"
-                       name="web_form_address_three" aria-describedby="web_form_address_three" value="<?= $datacamp['web_form_address_three'] ?>" >
+                <input type="text" class="form-control" id="web_form_address_three" name="web_form_address_three"
+                    aria-describedby="web_form_address_three" value="<?= $datacamp['web_form_address_three'] ?>">
                 <label for="web_form_address_three">Web Form Three</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="web_form_target"
-                       name="web_form_target" aria-describedby="web_form_target" value="<?= $datacamp['web_form_target'] ?>">
+                <input type="text" class="form-control" id="web_form_target" name="web_form_target"
+                    aria-describedby="web_form_target" value="<?= $datacamp['web_form_target'] ?>">
                 <label for="web_form_target">Web Form Target</label>
             </div>
         </div>
@@ -249,7 +243,7 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="user_nickname" name="user_nickname"
-                       aria-describedby="user_nickname" value="<?= $datacamp['park_file_name'] ?>"disabled >
+                    aria-describedby="user_nickname" value="<?= $datacamp['park_file_name'] ?>" disabled>
                 <label for="user_nickname">User Nickname (Optional)</label>
             </div>
             <button class="my-btn-primary ml-4 mt-1">Add</button>
@@ -427,43 +421,39 @@ if (isset($_POST['campaign1'])) {
             </div>
         </div>
 
-        <div
-                class="my-input-with-help col-12 col-md-6 col-lg-4 d-flex flex-row align-items-center">
-            <input type="checkbox" id="hopper_drop_run_trigger" name="hopper_drop_run_trigger"
-                   class="mr-3 mb-2" value="<?= $datacamp['hopper_drop_run_trigger'] ?>">
+        <div class="my-input-with-help col-12 col-md-6 col-lg-4 d-flex flex-row align-items-center">
+            <input type="checkbox" id="hopper_drop_run_trigger" name="hopper_drop_run_trigger" class="mr-3 mb-2"
+                value="<?= $datacamp['hopper_drop_run_trigger'] ?>">
             <label for="hopper_drop_run_trigger">Hopper Drop-Run Trigger</label>
         </div>
 
         <div class="my-input-with-help col-12 d-flex flex-row align-items-center mt-3 mb-5">
-            <input type="checkbox" id="hopper_drop_run_trigger_all"
-                   name="hopper_drop_run_trigger_all" class="mr-3 mb-2" value="<?= $datacamp['hopper_drop_run_trigger_all'] ?>">
+            <input type="checkbox" id="hopper_drop_run_trigger_all" name="hopper_drop_run_trigger_all" class="mr-3 mb-2"
+                value="<?= $datacamp['hopper_drop_run_trigger_all'] ?>">
             <label for="hopper_drop_run_trigger_all">Hopper Drop-Run Trigger</label>
         </div>
 
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="drop_lockout_time"
-                       name="drop_lockout_time" aria-describedby="drop_lockout_time"
-                       value="<?= $datacamp['drop_lockout_time'] ?>">
+                <input type="text" class="form-control" id="drop_lockout_time" name="drop_lockout_time"
+                    aria-describedby="drop_lockout_time" value="<?= $datacamp['drop_lockout_time'] ?>">
                 <label for="drop_lockout_time">Drop Lockout Time</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="call_count_limit"
-                       name="call_count_limit" aria-describedby="call_count_limit"
-                       value="<?= $datacamp['call_count_limit'] ?>">
+                <input type="text" class="form-control" id="call_count_limit" name="call_count_limit"
+                    aria-describedby="call_count_limit" value="<?= $datacamp['call_count_limit'] ?>">
                 <label for="call_count_limit">Call Count Limit</label>
             </div>
         </div>
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="call_count_target"
-                       name="call_count_target" aria-describedby="call_count_target"
-                       value="<?= $datacamp['call_count_target'] ?>">
+                <input type="text" class="form-control" id="call_count_target" name="call_count_target"
+                    aria-describedby="call_count_target" value="<?= $datacamp['call_count_target'] ?>">
                 <label for="call_count_target">Call Count Target</label>
             </div>
         </div>
@@ -700,8 +690,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="dial_level_threshold_agents" id="dial_level_threshold_agents"
-                        uired>
+                <select name="dial_level_threshold_agents" id="dial_level_threshold_agents" uired>
                     <option></option>
                     <option>0</option>
                     <option>1</option>
@@ -738,8 +727,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="available_only_tally_threshold"
-                        id="available_only_tally_threshold" uired>
+                <select name="available_only_tally_threshold" id="available_only_tally_threshold" uired>
                     <option></option>
                     <option value='DISABLED'>DISABLED</option>
                     <option value='LOGGED-IN_AGENTS'>LOGGED-IN_AGENTS</option>
@@ -755,8 +743,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="available_only_tally_threshold_agents"
-                        id="available_only_tally_threshold_agents" uired>
+                <select name="available_only_tally_threshold_agents" id="available_only_tally_threshold_agents" uired>
                     <option></option>
                     <option>0</option>
                     <option>1</option>
@@ -794,8 +781,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="adaptive_dropped_percentage" id="adaptive_dropped_percentage"
-                        uired>
+                <select name="adaptive_dropped_percentage" id="adaptive_dropped_percentage" uired>
                     <option></option>
                     <option>100</option>
                     <option>99</option>
@@ -933,10 +919,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="adaptive_maximum_level"
-                       name="adaptive_maximum_level" aria-describedby="adaptive_maximum_level"
-                       value="<?= $datacamp['adaptive_maximum_level'] ?>"
-                       uired>
+                <input type="text" class="form-control" id="adaptive_maximum_level" name="adaptive_maximum_level"
+                    aria-describedby="adaptive_maximum_level" value="<?= $datacamp['adaptive_maximum_level'] ?>" uired>
                 <label for="adaptive_maximum_level">Maximum Adapt Dial Level</label>
             </div>
         </div>
@@ -945,9 +929,8 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="adaptive_latest_server_time"
-                       name="adaptive_latest_server_time"
-                       aria-describedby="adaptive_latest_server_time" maxlength="4"
-                       value="<?= $datacamp['adaptive_latest_server_time'] ?>" uired>
+                    name="adaptive_latest_server_time" aria-describedby="adaptive_latest_server_time" maxlength="4"
+                    value="<?= $datacamp['adaptive_latest_server_time'] ?>" uired>
                 <label for="adaptive_latest_server_time">Latest Server Time (4 digit
                     only)</label>
             </div>
@@ -1152,8 +1135,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="inbound_no_agents_no_dial_container"
-                        id="inbound_no_agents_no_dial_container" uired>
+                <select name="inbound_no_agents_no_dial_container" id="inbound_no_agents_no_dial_container" uired>
                     <option></option>
                     <option value="">---DISABLED---</option>
                 </select>
@@ -1166,11 +1148,9 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="number" class="form-control"
-                       id="inbound_no_agents_no_dial_threshold"
-                       name="inbound_no_agents_no_dial_threshold"
-                       aria-describedby="inbound_no_agents_no_dial_threshold"
-                       value="<?= $datacamp['inbound_no_agents_no_dial_threshold'] ?>" uired>
+                <input type="number" class="form-control" id="inbound_no_agents_no_dial_threshold"
+                    name="inbound_no_agents_no_dial_threshold" aria-describedby="inbound_no_agents_no_dial_threshold"
+                    value="<?= $datacamp['inbound_no_agents_no_dial_threshold'] ?>" uired>
                 <label for="inbound_no_agents_no_dial_threshold">Inbound No-Agents No-Dial
                     Threshold</label>
             </div>
@@ -1189,10 +1169,9 @@ if (isset($_POST['campaign1'])) {
         <!--            </div>-->
         <!--        </div>-->
 
-        <div
-                class="my-input-with-help col-12 col-md-6 col-lg-8 d-flex flex-row align-items-center mb-5">
-            <input type="checkbox" id="dial_level_override" name="dial_level_override"
-                   class="mr-3 mb-2" value="<?= $datacamp['dial_level_override'] ?>">
+        <div class="my-input-with-help col-12 col-md-6 col-lg-8 d-flex flex-row align-items-center mb-5">
+            <input type="checkbox" id="dial_level_override" name="dial_level_override" class="mr-3 mb-2"
+                value="<?= $datacamp['dial_level_override'] ?>">
             <label for="dial_level_override">Adapt Override</label>
         </div>
 
@@ -1260,7 +1239,7 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="dial_timeout" name="dial_timeout"
-                       aria-describedby="dial_timeout" maxlength="3" value="<?= $datacamp['dial_timeout'] ?>" uired>
+                    aria-describedby="dial_timeout" maxlength="3" value="<?= $datacamp['dial_timeout'] ?>" uired>
                 <label for="dial_timeout">Dial Timeout</label>
             </div>
         </div>
@@ -1268,8 +1247,7 @@ if (isset($_POST['campaign1'])) {
         <div class="my-dropdown-with-help col-12 col-md-6 col-lg-4">
             <div class="my-dropdown">
 
-                <select name="dial_timeout_lead_container" id="dial_timeout_lead_container"
-                        uired>
+                <select name="dial_timeout_lead_container" id="dial_timeout_lead_container" uired>
                     <option></option>
                     <option value='DISABLED'>DISABLED</option>
                 </select>
@@ -1282,7 +1260,7 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="dial_prefix" name="dial_prefix"
-                       aria-describedby="dial_prefix" value="<?= $datacamp['dial_prefix'] ?>" uired>
+                    aria-describedby="dial_prefix" value="<?= $datacamp['dial_prefix'] ?>" uired>
                 <label for="dial_prefix">Dial Prefix</label>
             </div>
         </div>
@@ -1290,9 +1268,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="manual_dial_prefix"
-                       name="manual_dial_prefix" aria-describedby="manual_dial_prefix"
-                       value="<?= $datacamp['manual_dial_prefix'] ?>" uired>
+                <input type="text" class="form-control" id="manual_dial_prefix" name="manual_dial_prefix"
+                    aria-describedby="manual_dial_prefix" value="<?= $datacamp['manual_dial_prefix'] ?>" uired>
                 <label for="manual_dial_prefix">Manual Dial Prefix</label>
             </div>
         </div>
@@ -1301,7 +1278,7 @@ if (isset($_POST['campaign1'])) {
             <div class="form-group my-input">
 
                 <input type="text" class="form-control" id="campaign_cid" name="campaign_cid"
-                       aria-describedby="campaign_cid" value="<?= $datacamp['campaign_cid'] ?>" uired>
+                    aria-describedby="campaign_cid" value="<?= $datacamp['campaign_cid'] ?>" uired>
                 <label for="campaign_cid">Campaign CallerID</label>
             </div>
         </div>
@@ -1340,9 +1317,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="campaign_vdad_exten"
-                       name="campaign_vdad_exten" aria-describedby="campaign_vdad_exten"
-                       value="<?= $datacamp['campaign_vdad_exten'] ?>" uired>
+                <input type="text" class="form-control" id="campaign_vdad_exten" name="campaign_vdad_exten"
+                    aria-describedby="campaign_vdad_exten" value="<?= $datacamp['campaign_vdad_exten'] ?>" uired>
                 <label for="campaign_vdad_exten">Routing Extension</label>
             </div>
         </div>
@@ -1350,9 +1326,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="campaign_rec_exten"
-                       name="campaign_rec_exten" aria-describedby="campaign_rec_exten"
-                       value="<?= $datacamp['campaign_rec_exten'] ?>" uired>
+                <input type="text" class="form-control" id="campaign_rec_exten" name="campaign_rec_exten"
+                    aria-describedby="campaign_rec_exten" value="<?= $datacamp['campaign_rec_exten'] ?>" uired>
                 <label for="campaign_rec_exten">Campaign Rec exten</label>
             </div>
         </div>
@@ -1375,9 +1350,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="campaign_vdad_exten"
-                       name="campaign_vdad_exten" aria-describedby="campaign_vdad_exten"
-                       value="<?= $datacamp['campaign_vdad_exten'] ?>" uired>
+                <input type="text" class="form-control" id="campaign_vdad_exten" name="campaign_vdad_exten"
+                    aria-describedby="campaign_vdad_exten" value="<?= $datacamp['campaign_vdad_exten'] ?>" uired>
                 <label for="campaign_vdad_exten">Routing Extension</label>
             </div>
         </div>
@@ -1385,9 +1359,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="campaign_rec_filename"
-                       name="campaign_rec_filename" aria-describedby="campaign_rec_filename"
-                       value="<?= $datacamp['campaign_rec_filename'] ?>" uired>
+                <input type="text" class="form-control" id="campaign_rec_filename" name="campaign_rec_filename"
+                    aria-describedby="campaign_rec_filename" value="<?= $datacamp['campaign_rec_filename'] ?>" uired>
                 <label for="campaign_rec_filename">Campaign Rec Filename</label>
             </div>
         </div>
@@ -1395,9 +1368,8 @@ if (isset($_POST['campaign1'])) {
         <div class="my-input-with-help col-12 col-md-6 col-lg-4 ">
             <div class="form-group my-input">
 
-                <input type="text" class="form-control" id="allcalls_delay"
-                       name="allcalls_delay" aria-describedby="allcalls_delay"
-                       value="<?= $datacamp['allcalls_delay'] ?>" uired>
+                <input type="text" class="form-control" id="allcalls_delay" name="allcalls_delay"
+                    aria-describedby="allcalls_delay" value="<?= $datacamp['allcalls_delay'] ?>" uired>
                 <label for="allcalls_delay">Recording Delay</label>
             </div>
         </div>
