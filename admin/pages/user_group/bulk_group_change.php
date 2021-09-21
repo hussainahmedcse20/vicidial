@@ -3,6 +3,7 @@ include '../include/userGroup.php';
 
 $userGroup = new userGroup();
 
+
 if (isset($_POST['submitstatus'])) {
     $abc = $_POST;
 //    $userGroup->old_group = $_POST[old_group];
@@ -21,11 +22,13 @@ if (isset($_POST['submitstatus'])) {
 //     echo "<br>";
 // }
 
-// $userGroup->old_group= $_POST['old_group'];
-// $userGroup->group= $_POST['group'];
+$userGroup->old_group= $_POST['old_group'];
+$userGroup->group= $_POST['group'];
 
-
-
+$sql = "UPDATE vicidial_user_groups SELECT old_group='".$userGroup->old_group."',
+group='".$userGroup->group."' WHERE  "  ;
+echo $sql;
+//$result = mysqli_query($conn, $sql);
 
 
 
