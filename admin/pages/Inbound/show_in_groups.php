@@ -1,12 +1,32 @@
 <?php
 include "../include/inbound.php";
 $inbound =new inbound();
+if(isset($_GET['id'])){
+    $id=$_GET['id'];
+}
+if(isset($_POST['submitstatus'])){
+    $abc=$_POST;
+    
+// foreach ($abc as $k->$v){
+//     echo $k;
+//     echo "<br>";
+// }
+
+// foreach($abc as $k=>$v){
+//         echo '$camp';
+//         echo "->";
+//         echo $k;
+//         echo "= ";
+//         echo '$_POST['.$k.']';
+//         echo "<br>";
+//     }
+
 
 $sql= "SELECT* group_name FROM vicidial_inbound_groups";
-$result =mysqli_query($conn,$sql);
+// $result =mysqli_query($conn,$sql);
+echo $sql;
 
-
-
+}
 
 ?>
 
@@ -148,7 +168,7 @@ $result =mysqli_query($conn,$sql);
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
                         data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit">
+                    <input class="my-btn-primary" type="submit" value="submit" name="submitstatus">
                 </div>
             </form>
         </div>
