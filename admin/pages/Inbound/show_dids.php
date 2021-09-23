@@ -4,8 +4,34 @@ $inbound =new inbound();
 if(isset($_GET['id'])){
     $id=$_GET['id'];
 }
-if(isset($_POST['submitstatus'])){
+if(isset($_POST['add_dids'])){
     $abc=$_POST;
+
+// foreach ($abc as $k->$v){
+//     echo $k;
+//     echo "<br>";
+// }
+
+// foreach($abc as $k=>$v){
+//         echo '$camp';
+//         echo "->";
+//         echo $k;
+//         echo "= ";
+//         echo '$_POST['.$k.']';
+//         echo "<br>";
+//     }
+
+$sql= "SELECT* group_name FROM vicidial_inbound_dids";
+$result =mysqli_query($conn,$sql);
+ 
+ 
+}
+
+
+if(isset($_POST['copy_dids'])){
+    $abc=$_POST;
+
+  
 
 // foreach ($abc as $k->$v){
 //     echo $k;
@@ -181,7 +207,7 @@ $result =mysqli_query($conn,$sql);
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
                         data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit" name="submitstatus">
+                    <input class="my-btn-primary" type="submit" value="submit" name="copy_dids">
                 </div>
             </form>
         </div>
@@ -245,7 +271,7 @@ $result =mysqli_query($conn,$sql);
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
                         data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit">
+                    <input class="my-btn-primary" type="submit" value="submit" name="add_dids">
                 </div>
             </form>
         </div>

@@ -4,7 +4,32 @@ $inbound =new inbound();
 if(isset($_GET['id'])){
     $id=$_GET['id'];
 }
-if(isset($_POST['submitstatus'])){
+if(isset($_POST['add_filter'])){
+    $abc=$_POST;
+
+// foreach ($abc as $k->$v){
+//     echo $k;
+//     echo "<br>";
+// }
+
+// foreach($abc as $k=>$v){
+//         echo '$camp';
+//         echo "->";
+//         echo $k;
+//         echo "= ";
+//         echo '$_POST['.$k.']';
+//         echo "<br>";
+//     }
+
+
+
+
+
+
+
+}
+
+if(isset($_POST['add_delete'])){
     $abc=$_POST;
 
 // foreach ($abc as $k->$v){
@@ -168,7 +193,7 @@ if(isset($_POST['submitstatus'])){
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
                         data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit" name="submitstatus">
+                    <input class="my-btn-primary" type="submit" value="submit" name="add_filter">
                 </div>
             </form>
         </div>
@@ -186,7 +211,7 @@ if(isset($_POST['submitstatus'])){
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="">
+            <form action="" method="POST">
                 <div class="modal-body">
                     <div class="row">
                         <div class="my-input-with-help col-6">
@@ -243,7 +268,7 @@ if(isset($_POST['submitstatus'])){
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary my-btn-secondary"
                         data-dismiss="modal">Cancel</button>
-                    <input class="my-btn-primary" type="submit" value="submit">
+                    <input class="my-btn-primary" type="submit" value="submit" name="add_delete">
                 </div>
             </form>
         </div>
