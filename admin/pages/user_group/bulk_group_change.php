@@ -27,8 +27,8 @@ $userGroup->group= $_POST['group'];
 
 $sql = "UPDATE vicidial_user_groups SELECT old_group='".$userGroup->old_group."',
 group='".$userGroup->group."' WHERE  "  ;
-echo $sql;
-//$result = mysqli_query($conn, $sql);
+
+$result = mysqli_query($conn, $sql);
 
 
 

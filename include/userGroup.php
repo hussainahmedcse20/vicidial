@@ -26,5 +26,9 @@ public $admin_ip_list="";
 public $agent_ip_list="";
 public $allowed_reports="";
 
+public $stage="";
+public $group_id="";
+
+
 
 }

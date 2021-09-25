@@ -72,6 +72,39 @@ $result=mysqli_query($conn, $sql);
 
 }
 
+if (isset($_POST['add_delete'])) {
+
+    // $abc = $_POST;
+    // foreach ($abc as $k => $v) {
+    //     echo $k;
+    //     echo "<br>";
+    // }
+    //     foreach ($abc as $k => $v) {
+    //     echo '$userGroup';
+    //     echo "->";
+    //     echo $k;
+    //     echo "= ";
+    //     echo '$_POST[' . $k . ']';
+    //     echo "<br>";
+
+ 
+
+    // }
+    $userGroup->stage= $_POST['stage'];
+    $userGroup->group_id= $_POST['group_id'];
+  
+
+    $sql="UPDATE `vicidial_campaigns` SELECT stage='".$userGroup->stage."',
+    group_id='".$userGroup->group_id."', 
+    WHERE user_group='".$id."'";
+
+    $result=mysqli_query($conn, $sql);
+
+    }
+
+
+
+
 ?>
 
 
@@ -567,7 +600,7 @@ $result=mysqli_query($conn, $sql);
         <!-- user list table ends -->
 
 
-        <form>
+        <form action="" method="POST">
             <div class="my-card-with-title">
                 <div class="card-body">
                     <div class="row justify-content-start align-items-center">
@@ -603,7 +636,7 @@ $result=mysqli_query($conn, $sql);
                                             style="font-size: 100%; transform: translate3d(0px, -40%, 0px); opacity: 0.5; background-color: transparent; padding: 15px 0px 0px 13px; z-index: 0;"></label>
                                     </div>
                                 </div>
-                                <input type="submit" value="Submit" class="my-btn-primary">
+                                <input type="submit" value="Submit" class="my-btn-primary" name="add_delete">
                             </div>
 
                         </div>
@@ -645,4 +678,3 @@ $result=mysqli_query($conn, $sql);
     </div>
 </div>
 <!-- Code goes here -->
-<!-- ================= User group Modify Section Start======================== -->
